@@ -15,9 +15,10 @@
 	- **send packet**
 		- ping -c 3 xxx.xxx.xx.xxx
 		- -c means count
-		- 3 means you send 3 icmp messages, then stop
+		- 3 means you send 3 icmp messages, then stop hello
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2OTg2NjA1MCwzODcyMDkzMV19
+eyJoaXN0b3J5IjpbMTI4NjYwODU5MiwxMDY5ODY2MDUwLDM4Nz
+IwOTMxXX0=
 -->
