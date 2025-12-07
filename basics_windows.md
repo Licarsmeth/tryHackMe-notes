@@ -14,6 +14,12 @@
 	- netstat
 		- displays current network connections and listening ports
 		- -h for help, look out for a (all), b (program associated), o (PID), n (numerical form), netstat -abon for short
+- Task and Process management
+	- tasklist
+		- list running processes 
+		- /? for more help
+		- Let’s say that we want to search for tasks related to `sshd.exe`, we can do that with the command `tasklist /FI "imagename eq sshd.exe"`.
+		- 
 - Linux equivalent
 	- pwd - cd
 	- ls 
@@ -32,5 +38,6 @@
 	- 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NzMxNjExLC0zNDgzOTA3MjZdfQ==
+eyJoaXN0b3J5IjpbLTEzNjY3MzgxNzMsMTc1NzMxNjExLC0zND
+gzOTA3MjZdfQ==
 -->
