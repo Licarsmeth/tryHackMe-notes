@@ -25,11 +25,12 @@
 	- touch
 		- echo text > text.txt 
 		- echo: > text.txt for empty file
+		- type nul > truly_empty.ext for a truly empty file
 		- yeah it sucks, didn't find a direct touch command 
 	- mv - move
-	- rm - del or e
+	- rm - del or erase for file, rmdir for dir
 	- 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNDg3MTA2NywtMzQ4MzkwNzI2XX0=
+eyJoaXN0b3J5IjpbMTc1NzMxNjExLC0zNDgzOTA3MjZdfQ==
 -->
