@@ -27,7 +27,7 @@
 			- /a for hidden and system files
 			- /s for files in current dir and all subdir
 		- tree for visual representation
-	- cat - type for short, pipe to more for long
+	- cat - type for short,  more for long
 	- touch
 		- echo text > text.txt 
 		- echo: > text.txt for empty file
@@ -38,6 +38,6 @@
 	- 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzkyOTMyNzUsMTc1NzMxNjExLC0zND
-gzOTA3MjZdfQ==
+eyJoaXN0b3J5IjpbLTQzNzA3MzY4MCwtMTA3OTI5MzI3NSwxNz
+U3MzE2MTEsLTM0ODM5MDcyNl19
 -->
