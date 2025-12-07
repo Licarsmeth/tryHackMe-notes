@@ -19,7 +19,7 @@
 		- list running processes 
 		- /? for more help
 		- Let’s say that we want to search for tasks related to `sshd.exe`, we can do that with the command `tasklist /FI "imagename eq sshd.exe"`.
-		- 
+	- taskkill /PID `pid`
 - Linux equivalent
 	- pwd - cd
 	- ls 
@@ -38,6 +38,6 @@
 	- 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjY3MzgxNzMsMTc1NzMxNjExLC0zND
+eyJoaXN0b3J5IjpbLTEwNzkyOTMyNzUsMTc1NzMxNjExLC0zND
 gzOTA3MjZdfQ==
 -->
