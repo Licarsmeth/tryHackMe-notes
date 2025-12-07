@@ -22,9 +22,10 @@
 			- /s for files in current dir and all subdir
 		- tree for visual representation
 	- cat - type for short, pipe to more for long
-	- 
+	- touch
+		- echo
 	- 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0ODM5MDcyNl19
+eyJoaXN0b3J5IjpbLTEyMzAxNDM4MDUsLTM0ODM5MDcyNl19
 -->
