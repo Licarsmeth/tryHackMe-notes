@@ -20,7 +20,8 @@
 		- /? for more help
 		- Let’s say that we want to search for tasks related to `sshd.exe`, we can do that with the command `tasklist /FI "imagename eq sshd.exe"`.
 	- taskkill /PID `pid`
-	- sfc /scannow
+	- sfc /scannow 
+		- scans system files for corruption and repairs them if possible.
 - Linux equivalent
 	- pwd - cd
 	- ls 
@@ -39,6 +40,6 @@
 	- 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMzM0NjY4MSwtMTA3OTI5MzI3NSwxNz
-U3MzE2MTEsLTM0ODM5MDcyNl19
+eyJoaXN0b3J5IjpbLTEwMDg2MDIwOTUsLTEwNzkyOTMyNzUsMT
+c1NzMxNjExLC0zNDgzOTA3MjZdfQ==
 -->
