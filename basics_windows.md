@@ -23,9 +23,13 @@
 		- tree for visual representation
 	- cat - type for short, pipe to more for long
 	- touch
-		- echo
+		- echo text > text.txt 
+		- echo: > text.txt for empty file
+		- yeah it sucks, didn't find a direct touch command 
+	- mv - move
+	- rm - del or e
 	- 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzAxNDM4MDUsLTM0ODM5MDcyNl19
+eyJoaXN0b3J5IjpbLTkyNDg3MTA2NywtMzQ4MzkwNzI2XX0=
 -->
