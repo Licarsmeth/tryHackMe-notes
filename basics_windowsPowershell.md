@@ -23,10 +23,10 @@
 	- like systeminfo in cmd, but more detailed
 - Network
 	- Get-NetIPConfiguration similar to ipconfig in cmd
-	- Get-NetIPAddress to get specific 
+	- Get-NetIPAddress to get specific details about ip addresses
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NTc4NTA0MCwyMTI2NjkxMDgyLDE4Nz
+eyJoaXN0b3J5IjpbMTEwOTU1NDkwMiwyMTI2NjkxMDgyLDE4Nz
 gyMzg4NjNdfQ==
 -->
