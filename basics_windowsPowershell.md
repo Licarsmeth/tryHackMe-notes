@@ -18,8 +18,13 @@
 	- Where-Object to filter stuff out
 		- ls | where-object -property "length" -gt 100
 		- or just ls | ? length -gt 100
-		- 
+- System Information 
+	- Get-ComputerInfo
+	- like systeminfo in cmd, but more detailed
+- 
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNjY5MTA4MiwxODc4MjM4ODYzXX0=
+eyJoaXN0b3J5IjpbODk1ODUwNDE5LDIxMjY2OTEwODIsMTg3OD
+IzODg2M119
 -->
