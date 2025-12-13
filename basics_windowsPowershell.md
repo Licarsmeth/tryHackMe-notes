@@ -33,7 +33,8 @@
 	- Get-Process to list all process, cpu and memory usage, etc
 	- Get-Service to know status of a service
 - File inspection
-	- Get-FileHash `filename` 
+	- Get-FileHash `filename` to get the file's hash. Helps verify file integrity and detect potential tampering.
+	- 
 	- 
 
 
@@ -41,6 +42,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NDkyMTY5LC02OTEwNDc2MjUsLTE1Nz
-A5MTM4MDAsMjEyNjY5MTA4MiwxODc4MjM4ODYzXX0=
+eyJoaXN0b3J5IjpbLTIxMTg3MTgwNjksLTY5MTA0NzYyNSwtMT
+U3MDkxMzgwMCwyMTI2NjkxMDgyLDE4NzgyMzg4NjNdfQ==
 -->
