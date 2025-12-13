@@ -32,6 +32,8 @@
 - Processes and services
 	- Get-Process to list all process, cpu and memory usage, etc
 	- Get-Service to know status of a service
+- File inspection
+	- Get-FileHash `filename` 
 	- 
 
 
@@ -39,6 +41,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MTA0NzYyNSwtMTU3MDkxMzgwMCwyMT
-I2NjkxMDgyLDE4NzgyMzg4NjNdfQ==
+eyJoaXN0b3J5IjpbLTY2NDkyMTY5LC02OTEwNDc2MjUsLTE1Nz
+A5MTM4MDAsMjEyNjY5MTA4MiwxODc4MjM4ODYzXX0=
 -->
