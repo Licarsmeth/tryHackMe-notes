@@ -15,7 +15,11 @@
 	- Select-String (or sls) - like grep 
 		- `alias | sls sls` - why this shows only "sls" and not the full row like grep :
 		- The `alias` cmdlet outputs objects with properties like Name, CommandType, and Definition, not plain text lines. When piped to `sls`, it matches on the string "sls" (typically in the Name property) but displays a formatted summary rather than the full object details, unlike `grep`'s line-based output on text streams.
+	- Where-Object to filter stuff out
+		- ls | where-object -property "length" -gt 100
+		- or just ls | ? length -gt 100
 		- 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMjIxNzI1NCwxODc4MjM4ODYzXX0=
+eyJoaXN0b3J5IjpbMjEyNjY5MTA4MiwxODc4MjM4ODYzXX0=
 -->
