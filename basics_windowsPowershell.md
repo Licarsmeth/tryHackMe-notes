@@ -36,17 +36,17 @@
 	- Get-Service to know status of a service
 - File inspection
 	- Get-FileHash `filename` to get the file's hash. Helps verify file integrity and detect potential tampering.
-	- Get-Item (or gi) `filename` -String * to get all the file metadata, or ADS (Alternate Data Streams). Sometimes malicious stuff may be hidden there. -
-	- 
+	- Get-Item (or gi) `filename` -String * to get all the file metadata, or ADS (Alternate Data Streams). Sometimes malicious stuff may be hidden there. 
+- Remote management
+	- Invoke-Command
 
-	- 
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg0ODEwNjQ1LDE1NTMyMjY4NzIsLTgxNT
-YxMTk4MSwtMjExODcxODA2OSwtNjkxMDQ3NjI1LC0xNTcwOTEz
-ODAwLDIxMjY2OTEwODIsMTg3ODIzODg2M119
+eyJoaXN0b3J5IjpbLTIwNzU1NDY2MDcsMTU1MzIyNjg3MiwtOD
+E1NjExOTgxLC0yMTE4NzE4MDY5LC02OTEwNDc2MjUsLTE1NzA5
+MTM4MDAsMjEyNjY5MTA4MiwxODc4MjM4ODYzXX0=
 -->
