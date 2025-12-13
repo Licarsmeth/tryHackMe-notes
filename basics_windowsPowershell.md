@@ -24,7 +24,9 @@
 - Network
 	- Get-NetIPConfiguration similar to ipconfig in cmd
 	- Get-NetIPAddress to get specific details about ip addresses
-	- Get-NetTCPConnection to monitor active network connection
+	- Get-NetTCPConnection to monitor active network connections
+		- This cmdlet is particularly handy during an incident response or malware analysis task, as it can uncover hidden backdoors or established connections towards an attacker-controlled server.
+
 - Users
 	- Get-LocalUser to list the local users, their description, and if they are enabled or not
 - Processes and services
@@ -37,6 +39,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0OTMyMjc1OSwtMTU3MDkxMzgwMCwyMT
+eyJoaXN0b3J5IjpbLTY5MTA0NzYyNSwtMTU3MDkxMzgwMCwyMT
 I2NjkxMDgyLDE4NzgyMzg4NjNdfQ==
 -->
