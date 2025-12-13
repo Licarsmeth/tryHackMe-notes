@@ -6,7 +6,7 @@
 		- look at the bottom, you'll see useful stuff like -examples
 	- Get-Alias (or just alias) to list all alias 
 		- then you can use stuff  like ls, cd and man
-		- alias -definition get-childitem to know a particula
+		- alias -definition get-childitem to know a particular alias
 	- Get-Command to list all commands
 	- Set-PSReadLineOption -EditMode Emacs to use keybindings like ctrl b,p,a,k,f
 	- NewItem to create an item (or just ni)
@@ -35,7 +35,7 @@
 	- Get-Service to know status of a service
 - File inspection
 	- Get-FileHash `filename` to get the file's hash. Helps verify file integrity and detect potential tampering.
-	- 
+	- Get-File (or g
 	- 
 
 
@@ -43,7 +43,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMDc5OTkzNiwtMjExODcxODA2OSwtNj
-kxMDQ3NjI1LC0xNTcwOTEzODAwLDIxMjY2OTEwODIsMTg3ODIz
-ODg2M119
+eyJoaXN0b3J5IjpbLTExMTY1MjI3MzUsLTIxMTg3MTgwNjksLT
+Y5MTA0NzYyNSwtMTU3MDkxMzgwMCwyMTI2NjkxMDgyLDE4Nzgy
+Mzg4NjNdfQ==
 -->
