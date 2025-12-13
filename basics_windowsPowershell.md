@@ -35,7 +35,7 @@
 	- Get-Service to know status of a service
 - File inspection
 	- Get-FileHash `filename` to get the file's hash. Helps verify file integrity and detect potential tampering.
-	- Get-File (or g
+	- Get-Item (or gi) `filename` -String * to get all the file info
 	- 
 
 
@@ -43,7 +43,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTY1MjI3MzUsLTIxMTg3MTgwNjksLT
-Y5MTA0NzYyNSwtMTU3MDkxMzgwMCwyMTI2NjkxMDgyLDE4Nzgy
-Mzg4NjNdfQ==
+eyJoaXN0b3J5IjpbMTIxNzUwNjUwMiwtMjExODcxODA2OSwtNj
+kxMDQ3NjI1LC0xNTcwOTEzODAwLDIxMjY2OTEwODIsMTg3ODIz
+ODg2M119
 -->
