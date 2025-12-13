@@ -4,8 +4,9 @@
 	- It's all case insensitive
 	- Get-Help is like man
 		- look at the bottom, you'll see useful stuff like -examples
-	- Get-Alias to list all alias
+	- Get-Alias (or just alias) to list all alias 
 		- then you can use stuff  like ls, cd and man
+		- alias -definition get-childitem to know a particula
 	- Get-Command to list all commands
 	- Set-PSReadLineOption -EditMode Emacs to use keybindings like ctrl b,p,a,k,f
 	- NewItem to create an item (or just ni)
@@ -42,6 +43,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTg3MTgwNjksLTY5MTA0NzYyNSwtMT
-U3MDkxMzgwMCwyMTI2NjkxMDgyLDE4NzgyMzg4NjNdfQ==
+eyJoaXN0b3J5IjpbMjEzMDc5OTkzNiwtMjExODcxODA2OSwtNj
+kxMDQ3NjI1LC0xNTcwOTEzODAwLDIxMjY2OTEwODIsMTg3ODIz
+ODg2M119
 -->
