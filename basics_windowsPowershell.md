@@ -24,13 +24,19 @@
 - Network
 	- Get-NetIPConfiguration similar to ipconfig in cmd
 	- Get-NetIPAddress to get specific details about ip addresses
+	- Get-NetTCPConnection to monitor active network connection
 - Users
 	- Get-LocalUser to list the local users, their description, and if they are enabled or not
+- Processes and services
+	- Get-Process to list all process, cpu and memory usage, etc
+	- Get-Service to know status of a service
 	- 
 
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzA5MTM4MDAsMjEyNjY5MTA4MiwxOD
-c4MjM4ODYzXX0=
+eyJoaXN0b3J5IjpbMjA0OTMyMjc1OSwtMTU3MDkxMzgwMCwyMT
+I2NjkxMDgyLDE4NzgyMzg4NjNdfQ==
 -->
