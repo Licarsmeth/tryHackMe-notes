@@ -21,10 +21,12 @@
 - System Information 
 	- Get-ComputerInfo
 	- like systeminfo in cmd, but more detailed
-- 
+- Network
+	- Get-NetIPConfiguration similar to ipconfig in cmd
+	- Get-NetIPAddress to get specific 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk1ODUwNDE5LDIxMjY2OTEwODIsMTg3OD
-IzODg2M119
+eyJoaXN0b3J5IjpbMTE3NTc4NTA0MCwyMTI2NjkxMDgyLDE4Nz
+gyMzg4NjNdfQ==
 -->
