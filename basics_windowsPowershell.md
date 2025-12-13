@@ -24,9 +24,13 @@
 - Network
 	- Get-NetIPConfiguration similar to ipconfig in cmd
 	- Get-NetIPAddress to get specific details about ip addresses
+- Users
+	- Get-LocalUser to list the local users, their description, and if they are enabled or not
+	- 
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwOTU1NDkwMiwyMTI2NjkxMDgyLDE4Nz
-gyMzg4NjNdfQ==
+eyJoaXN0b3J5IjpbLTE1NzA5MTM4MDAsMjEyNjY5MTA4MiwxOD
+c4MjM4ODYzXX0=
 -->
