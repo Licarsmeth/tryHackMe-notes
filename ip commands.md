@@ -17,7 +17,7 @@
 		- -c means count
 		- 3 means you send 3 icmp messages, then stop 
 - ***Packet capture in your network (tcpdump)***
-	- Basic commands
+	- **Basic commands**
 		- `tcpdump -i INTERFACE`
 			- Captures packets on a specific network interface
 		- `tcpdump -w FILE`
@@ -32,7 +32,7 @@
 			- Don’t resolve IP addresses and don’t resolve protocol numbers
 		- `tcpdump -v`
 			- Verbose display; verbosity can be increased with `-vv` and `-vvv`	
-	- Filtering
+	- **Filtering
 		- By host
 			- `host IP` or `host HOSTNAME`
 			- `src host IP` for source host filtering
@@ -42,9 +42,12 @@
 			- add src or dst for source or destination ports
 		- By protocol
 			- Simply add the protocol name, like `ip`, `ip6`, `udp`, `tcp`, and `icmp`
+		- Logical operators
+			- and, or, not
 	- Examples:
 		- `tcpdump -i eth0 -c 50 -v` captures and displays 50 packets by listening on the `eth0` interface, which is a wired Ethernet, and displays them verbosely.
 		- `tcpdump -i wlo1 -w data.pcap` captures packets by listening on the `wlo1` interface (the WiFi interface) and writes the packets to `data.pcap`. It will continue till the user interrupts the capture by pressing CTRL-C.
+		- `tcpdump -i eth0 host example.com and tcp port 443 -w https.pcap` will listen on `eth0`, the wired Ethernet interface and filter traffic exchanged with `example.com` that uses `tcp` and `port 443`. In other words, this command is filtering HTTPS traffic related to `example.com`
 
 
 
@@ -52,7 +55,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDg1NzMxOTksLTg5Mjc4MzU3NywtMT
-Y2MDUyNDM1MCwtMTI1NzE5MTA4NCwyMTIyNDcxNDYsMTA2OTg2
-NjA1MCwzODcyMDkzMV19
+eyJoaXN0b3J5IjpbNTg2NDEzNjMzLC04OTI3ODM1NzcsLTE2Nj
+A1MjQzNTAsLTEyNTcxOTEwODQsMjEyMjQ3MTQ2LDEwNjk4NjYw
+NTAsMzg3MjA5MzFdfQ==
 -->
