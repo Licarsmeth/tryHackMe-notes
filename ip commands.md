@@ -16,7 +16,7 @@
 		- ping -c 3 xxx.xxx.xx.xxx
 		- -c means count
 		- 3 means you send 3 icmp messages, then stop 
-- ***Packet capture in your network***
+- ***Packet capture in your network (tcpdump)***
 	- `tcpdump -i INTERFACE`
 		- Captures packets on a specific network interface
 	- `tcpdump -w FILE`
@@ -24,26 +24,23 @@
 	- `tcpdump -r FILE`
 		- Reads captured packets from a file
 	- `tcpdump -c COUNT`
+		- Captures a specific number of packets
+	- `tcpdump -n`
+		- Don’t resolve IP addresses
+	- `tcpdump -nn`
+		- Don’t resolve IP addresses and don’t resolve protocol numbers
+	- `tcpdump -v`
+		- Verbose display; verbosity can be increased with `-vv` and `-vvv`	
+	- Examples:
+		- `tcpdump -i eth0 -c 50 -v` captures and displays 50 packets by listening on the `eth0` interface, which is a wired Ethernet, and displays them verbosely.
+		- `tcpdump -i wlo1 -w data.pcap` captures packets by listening on the `wlo1` interface (the WiFi interface) and writes the packets to `data.pcap`. It will continue till the user interrupts the capture by pressing CTRL-C.
 
-Captures a specific number of packets
-
-`tcpdump -n`
-
-Don’t resolve IP addresses
-
-`tcpdump -nn`
-
-Don’t resolve IP addresses and don’t resolve protocol numbers
-
-`tcpdump -v`
-
-Verbose display; verbosity can be increased with `-vv` and `-vvv`
 
 
 ----------
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE2Nzk0NjAyLC0xMjU3MTkxMDg0LDIxMj
-I0NzE0NiwxMDY5ODY2MDUwLDM4NzIwOTMxXX0=
+eyJoaXN0b3J5IjpbLTE2NjA1MjQzNTAsLTEyNTcxOTEwODQsMj
+EyMjQ3MTQ2LDEwNjk4NjYwNTAsMzg3MjA5MzFdfQ==
 -->
