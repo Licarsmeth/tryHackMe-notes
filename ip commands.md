@@ -46,10 +46,17 @@
 			- and, or, not
 		- Advanced filtering
 			- There are others like filtering by length (`greater length`), binary operations (`& ! |`, header bytes(`proto[expr:size]`), tcp flags(`tcp-syn`), etc. Visit [here](https://tryhackme.com/room/tcpdump) to know more
+	- **Displaying packets**
+		-  `-q`: Quick output; print brief packet information
+		-   `-e`: Print the link-level header
+		-   `-A`: Show packet data in ASCII
+		-   `-xx`: Show packet data in hexadecimal format, referred to as hex
+		-   `-X`: Show packet headers and data in hex and ASCII
 	- **Examples:**
 		- `tcpdump -i eth0 -c 50 -v` captures and displays 50 packets by listening on the `eth0` interface, which is a wired Ethernet, and displays them verbosely.
 		- `tcpdump -i wlo1 -w data.pcap` captures packets by listening on the `wlo1` interface (the WiFi interface) and writes the packets to `data.pcap`. It will continue till the user interrupts the capture by pressing CTRL-C.
 		- `tcpdump -i eth0 host example.com and tcp port 443 -w https.pcap` will listen on `eth0`, the wired Ethernet interface and filter traffic exchanged with `example.com` that uses `tcp` and `port 443`. In other words, this command is filtering HTTPS traffic related to `example.com`
+		- `tcpdump "tcp[tcpflags] & tcp-syn != 0"` to capture TCP packets with **at least** the SYN (Synchronize) flag set.
 
 
 
@@ -57,7 +64,8 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMjcyNTQwMiwtNjAyNzc4Njk2LDExMD
-I1Njc2ODEsLTg5Mjc4MzU3NywtMTY2MDUyNDM1MCwtMTI1NzE5
-MTA4NCwyMTIyNDcxNDYsMTA2OTg2NjA1MCwzODcyMDkzMV19
+eyJoaXN0b3J5IjpbNzkzNTQ5ODIzLDE3MjI3MjU0MDIsLTYwMj
+c3ODY5NiwxMTAyNTY3NjgxLC04OTI3ODM1NzcsLTE2NjA1MjQz
+NTAsLTEyNTcxOTEwODQsMjEyMjQ3MTQ2LDEwNjk4NjYwNTAsMz
+g3MjA5MzFdfQ==
 -->
