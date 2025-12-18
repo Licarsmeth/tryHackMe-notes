@@ -44,6 +44,8 @@
 			- Simply add the protocol name, like `ip`, `ip6`, `udp`, `tcp`, and `icmp`
 		- Logical operators
 			- and, or, not
+		- Advanced filtering
+			- There are others like filtering by length, binary operations, header bytes, tcp flags, etc. Visit [here](https://tryhackme.com/room/tcpdump) to know more
 	- **Examples:**
 		- `tcpdump -i eth0 -c 50 -v` captures and displays 50 packets by listening on the `eth0` interface, which is a wired Ethernet, and displays them verbosely.
 		- `tcpdump -i wlo1 -w data.pcap` captures packets by listening on the `wlo1` interface (the WiFi interface) and writes the packets to `data.pcap`. It will continue till the user interrupts the capture by pressing CTRL-C.
@@ -55,7 +57,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMjU2NzY4MSwtODkyNzgzNTc3LC0xNj
-YwNTI0MzUwLC0xMjU3MTkxMDg0LDIxMjI0NzE0NiwxMDY5ODY2
-MDUwLDM4NzIwOTMxXX0=
+eyJoaXN0b3J5IjpbLTYwMjc3ODY5NiwxMTAyNTY3NjgxLC04OT
+I3ODM1NzcsLTE2NjA1MjQzNTAsLTEyNTcxOTEwODQsMjEyMjQ3
+MTQ2LDEwNjk4NjYwNTAsMzg3MjA5MzFdfQ==
 -->
