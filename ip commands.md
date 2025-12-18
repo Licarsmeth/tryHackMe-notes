@@ -33,7 +33,11 @@
 		- `tcpdump -v`
 			- Verbose display; verbosity can be increased with `-vv` and `-vvv`	
 	- Filtering
-		- 
+		- By host
+			- `host IP` or `host HOSTNAME`
+			- `src host IP` for source host filtering
+			- `dst host IP` for destination host filtering
+		- By 
 	- Examples:
 		- `tcpdump -i eth0 -c 50 -v` captures and displays 50 packets by listening on the `eth0` interface, which is a wired Ethernet, and displays them verbosely.
 		- `tcpdump -i wlo1 -w data.pcap` captures packets by listening on the `wlo1` interface (the WiFi interface) and writes the packets to `data.pcap`. It will continue till the user interrupts the capture by pressing CTRL-C.
@@ -44,7 +48,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5Mjc4MzU3NywtMTY2MDUyNDM1MCwtMT
-I1NzE5MTA4NCwyMTIyNDcxNDYsMTA2OTg2NjA1MCwzODcyMDkz
-MV19
+eyJoaXN0b3J5IjpbLTE2MTg5MDAwODIsLTg5Mjc4MzU3NywtMT
+Y2MDUyNDM1MCwtMTI1NzE5MTA4NCwyMTIyNDcxNDYsMTA2OTg2
+NjA1MCwzODcyMDkzMV19
 -->
