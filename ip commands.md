@@ -32,7 +32,7 @@
 			- Don’t resolve IP addresses and don’t resolve protocol numbers
 		- `tcpdump -v`
 			- Verbose display; verbosity can be increased with `-vv` and `-vvv`	
-	- **Filtering
+	- **Filtering**
 		- By host
 			- `host IP` or `host HOSTNAME`
 			- `src host IP` for source host filtering
@@ -44,7 +44,7 @@
 			- Simply add the protocol name, like `ip`, `ip6`, `udp`, `tcp`, and `icmp`
 		- Logical operators
 			- and, or, not
-	- Examples:
+	- **Examples:**
 		- `tcpdump -i eth0 -c 50 -v` captures and displays 50 packets by listening on the `eth0` interface, which is a wired Ethernet, and displays them verbosely.
 		- `tcpdump -i wlo1 -w data.pcap` captures packets by listening on the `wlo1` interface (the WiFi interface) and writes the packets to `data.pcap`. It will continue till the user interrupts the capture by pressing CTRL-C.
 		- `tcpdump -i eth0 host example.com and tcp port 443 -w https.pcap` will listen on `eth0`, the wired Ethernet interface and filter traffic exchanged with `example.com` that uses `tcp` and `port 443`. In other words, this command is filtering HTTPS traffic related to `example.com`
@@ -55,7 +55,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg2NDEzNjMzLC04OTI3ODM1NzcsLTE2Nj
-A1MjQzNTAsLTEyNTcxOTEwODQsMjEyMjQ3MTQ2LDEwNjk4NjYw
-NTAsMzg3MjA5MzFdfQ==
+eyJoaXN0b3J5IjpbMTEwMjU2NzY4MSwtODkyNzgzNTc3LC0xNj
+YwNTI0MzUwLC0xMjU3MTkxMDg0LDIxMjI0NzE0NiwxMDY5ODY2
+MDUwLDM4NzIwOTMxXX0=
 -->
