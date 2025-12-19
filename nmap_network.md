@@ -26,7 +26,13 @@
 	- `-sV`- Service and version detection
 	- `-A`- OS detection, version detection, traceroute, and other additions
 	- `-Pn`- Scan hosts that appear to be down as well forcefully
-	- 
+- **Controlling the timing**
+	- `-T<0-5>`: Timing template 
+		- – paranoid (0), sneaky (1), polite (2), normal (3), aggressive (4), and insane (5)
+		- For example, you can add `-T0` (or `-T 0`) or `-T paranoid` to opt for the slowest timing.
+	- `--min-parallelism <numprobes>` and `--max-parallelism <numprobes>`: Minimum and maximum number of parallel probes
+	- `--min-rate <number>` and `--max-rate <number>`: Minimum and maximum rate (packets/second)
+	- `--host-timeout`: Maximum amount of time to wait for a target host
 
 
 
@@ -36,8 +42,8 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyODY3NTAxMCwtMTY4NDQ0MTk1NywtND
-I0MDI3NTM3LC0xNjQzMDQ4ODQ5LDEzMzcwNjYzMTksLTE1MDQy
-NDcyNzMsMjA0MzM1NjA2MCwtMTUyMzA1Mzc1MywtMjA4ODc0Nj
-YxMl19
+eyJoaXN0b3J5IjpbMTUzMTY1NTQ1LC0xNjg0NDQxOTU3LC00Mj
+QwMjc1MzcsLTE2NDMwNDg4NDksMTMzNzA2NjMxOSwtMTUwNDI0
+NzI3MywyMDQzMzU2MDYwLC0xNTIzMDUzNzUzLC0yMDg4NzQ2Nj
+EyXX0=
 -->
