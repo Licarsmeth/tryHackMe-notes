@@ -33,6 +33,7 @@
 	- `--min-parallelism <numprobes>` and `--max-parallelism <numprobes>`
 		-  Minimum and maximum number of parallel probes
 		- Parallel probes in Nmap means sending multiple scan probes simultaneously to different hosts/ports instead of sequentially (one-by-one).
+		- use lower max for more stealth, higher min to do everything quicker.
 	- `--min-rate <number>` and `--max-rate <number>`: Minimum and maximum rate (packets/second)
 	- `--host-timeout`: Maximum amount of time to wait for a target host
 
@@ -44,8 +45,8 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzIxMDQ3MTcsMTUzMTY1NTQ1LC0xNj
-g0NDQxOTU3LC00MjQwMjc1MzcsLTE2NDMwNDg4NDksMTMzNzA2
-NjMxOSwtMTUwNDI0NzI3MywyMDQzMzU2MDYwLC0xNTIzMDUzNz
-UzLC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTYyODc1OTUsMTUzMTY1NTQ1LC0xNjg0ND
+QxOTU3LC00MjQwMjc1MzcsLTE2NDMwNDg4NDksMTMzNzA2NjMx
+OSwtMTUwNDI0NzI3MywyMDQzMzU2MDYwLC0xNTIzMDUzNzUzLC
+0yMDg4NzQ2NjEyXX0=
 -->
