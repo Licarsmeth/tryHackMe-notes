@@ -20,6 +20,7 @@
 	- `-p[range]`
 		- Specifies a range of port numbers – `-p-` scans all the ports
 		- For example, `-p10-1024` scans from port 10 to port 1024, while `-p-25` will scan all the ports between 1 and 25.
+		- 
 
 
 
@@ -29,7 +30,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDMwNDg4NDksMTMzNzA2NjMxOSwtMT
-UwNDI0NzI3MywyMDQzMzU2MDYwLC0xNTIzMDUzNzUzLC0yMDg4
-NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTExNTk2MTE0NjIsLTE2NDMwNDg4NDksMT
+MzNzA2NjMxOSwtMTUwNDI0NzI3MywyMDQzMzU2MDYwLC0xNTIz
+MDUzNzUzLC0yMDg4NzQ2NjEyXX0=
 -->
