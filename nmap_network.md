@@ -30,7 +30,9 @@
 	- `-T<0-5>`: Timing template 
 		- – paranoid (0), sneaky (1), polite (2), normal (3), aggressive (4), and insane (5)
 		- For example, you can add `-T0` (or `-T 0`) or `-T paranoid` to opt for the slowest timing.
-	- `--min-parallelism <numprobes>` and `--max-parallelism <numprobes>`: Minimum and maximum number of parallel probes
+	- `--min-parallelism <numprobes>` and `--max-parallelism <numprobes>`
+		-  Minimum and maximum number of parallel probes
+		- Parallel probes in Nmap means sending multiple scan probes simultaneously to different hosts/ports instead of sequentially (one-by-one).
 	- `--min-rate <number>` and `--max-rate <number>`: Minimum and maximum rate (packets/second)
 	- `--host-timeout`: Maximum amount of time to wait for a target host
 
@@ -42,8 +44,8 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMTY1NTQ1LC0xNjg0NDQxOTU3LC00Mj
-QwMjc1MzcsLTE2NDMwNDg4NDksMTMzNzA2NjMxOSwtMTUwNDI0
-NzI3MywyMDQzMzU2MDYwLC0xNTIzMDUzNzUzLC0yMDg4NzQ2Nj
-EyXX0=
+eyJoaXN0b3J5IjpbLTIwMzIxMDQ3MTcsMTUzMTY1NTQ1LC0xNj
+g0NDQxOTU3LC00MjQwMjc1MzcsLTE2NDMwNDg4NDksMTMzNzA2
+NjMxOSwtMTUwNDI0NzI3MywyMDQzMzU2MDYwLC0xNTIzMDUzNz
+UzLC0yMDg4NzQ2NjEyXX0=
 -->
