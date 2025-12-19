@@ -21,10 +21,11 @@
 		- Specifies a range of port numbers – `-p-` scans all the ports
 		- For example, `-p10-1024` scans from port 10 to port 1024, while `-p-25` will scan all the ports between 1 and 25.
 - **Extracting more information**
+	- Use with the other options. Like `nmap -sS -0
 	- `-O`- OS detection, but not always reliable or accurate. Close estimation
 	- `-sV`- Service and version detection
 	- `-A`- OS detection, version detection, traceroute, and other additions
-	- `-Pn`- Scan hosts that appear to be down 
+	- `-Pn`- Scan hosts that appear to be down as well forcefully
 
 
 
@@ -34,7 +35,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MzEzOTI3OCwtMTY0MzA0ODg0OSwxMz
-M3MDY2MzE5LC0xNTA0MjQ3MjczLDIwNDMzNTYwNjAsLTE1MjMw
-NTM3NTMsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbODEyNjE2NzExLC0xNjQzMDQ4ODQ5LDEzMz
+cwNjYzMTksLTE1MDQyNDcyNzMsMjA0MzM1NjA2MCwtMTUyMzA1
+Mzc1MywtMjA4ODc0NjYxMl19
 -->
