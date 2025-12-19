@@ -9,16 +9,11 @@
 	- nmap -sL `ip address(es)`
 		- This scan only lists the targets to scan without actually scanning them. For example, `nmap -sL 192.168.0.1/24` will list the 256 targets that will be scanned. This option helps confirm the targets before running the actual scan.
 - **Port Scanning**
-	- `-sT`
-		- TCP connect scan – complete three-way handshake
-	- `-sS`
-		- TCP SYN – only first step of the three-way handshake, faster and stealthier
-	- `-sU`
-		- UDP scan
-	- `-F`
-		- Fast mode – scans the 100 most common ports, unlike the 1000 common ones by default
-	- `-p[range]`
-		- Specifies a range of port numbers – `-p-` scans all the ports
+	- `-sT`: TCP connect scan – complete three-way handshake
+	- `-sS`: TCP SYN – only first step of the three-way handshake, faster and stealthier
+	- `-sU`: UDP scan
+	- `-F`: Fast mode – scans the 100 most common ports, unlike the 1000 common ones by default
+	- `-p[range]`:  Specifies a range of port numbers – `-p-` scans all the ports
 		- For example, `-p10-1024` scans from port 10 to port 1024, while `-p-25` will scan all the ports between 1 and 25.
 - **Extracting more information**
 	- Use with the other options. Like `nmap -sS -O ip`
@@ -57,8 +52,8 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzYwMDYwNzQsLTYyODc1OTUsMTUzMT
-Y1NTQ1LC0xNjg0NDQxOTU3LC00MjQwMjc1MzcsLTE2NDMwNDg4
-NDksMTMzNzA2NjMxOSwtMTUwNDI0NzI3MywyMDQzMzU2MDYwLC
-0xNTIzMDUzNzUzLC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbNjg5NTk2MzI5LC0xNDc2MDA2MDc0LC02Mj
+g3NTk1LDE1MzE2NTU0NSwtMTY4NDQ0MTk1NywtNDI0MDI3NTM3
+LC0xNjQzMDQ4ODQ5LDEzMzcwNjYzMTksLTE1MDQyNDcyNzMsMj
+A0MzM1NjA2MCwtMTUyMzA1Mzc1MywtMjA4ODc0NjYxMl19
 -->
