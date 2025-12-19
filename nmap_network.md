@@ -36,6 +36,10 @@
 		- use lower max for more stealth, higher min to do everything quicker.
 	- `--min-rate <number>` and `--max-rate <number>`: Minimum and maximum rate (packets/second)
 	- `--host-timeout`: Maximum amount of time to wait for a target host
+- **Controlling the output**
+	- -v for verbose. 
+		- vv or even vvvv or v4 can be used to increase verbosity. 
+		- can be added while nmap is scanning, by s
 
 
 
@@ -45,8 +49,8 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyODc1OTUsMTUzMTY1NTQ1LC0xNjg0ND
-QxOTU3LC00MjQwMjc1MzcsLTE2NDMwNDg4NDksMTMzNzA2NjMx
-OSwtMTUwNDI0NzI3MywyMDQzMzU2MDYwLC0xNTIzMDUzNzUzLC
-0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbNjg2MTA2MDAzLC02Mjg3NTk1LDE1MzE2NT
+U0NSwtMTY4NDQ0MTk1NywtNDI0MDI3NTM3LC0xNjQzMDQ4ODQ5
+LDEzMzcwNjYzMTksLTE1MDQyNDcyNzMsMjA0MzM1NjA2MCwtMT
+UyMzA1Mzc1MywtMjA4ODc0NjYxMl19
 -->
