@@ -44,7 +44,10 @@
 		- even more info than -v. 
 		- can also be increased upto -d9, which is a lot
 	- Saving scan report
-		- 
+		-  `-oN <filename>` - Normal output
+		-   `-oX <filename>` - XML output
+		-  `-oG <filename>` - `grep`-able output (useful for `grep` and `awk`)
+		- `-oA <basename>` - Output in all major formats
 
 
 
@@ -54,8 +57,8 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MTY5NjkwMiwtNjI4NzU5NSwxNTMxNj
-U1NDUsLTE2ODQ0NDE5NTcsLTQyNDAyNzUzNywtMTY0MzA0ODg0
-OSwxMzM3MDY2MzE5LC0xNTA0MjQ3MjczLDIwNDMzNTYwNjAsLT
-E1MjMwNTM3NTMsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbNzc0MzUxOTE0LC02Mjg3NTk1LDE1MzE2NT
+U0NSwtMTY4NDQ0MTk1NywtNDI0MDI3NTM3LC0xNjQzMDQ4ODQ5
+LDEzMzcwNjYzMTksLTE1MDQyNDcyNzMsMjA0MzM1NjA2MCwtMT
+UyMzA1Mzc1MywtMjA4ODc0NjYxMl19
 -->
