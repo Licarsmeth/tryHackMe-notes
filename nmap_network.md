@@ -26,6 +26,7 @@
 	- `-sV`- Service and version detection
 	- `-A`- OS detection, version detection, traceroute, and other additions
 	- `-Pn`- Scan hosts that appear to be down as well forcefully
+	- 
 
 
 
@@ -35,7 +36,8 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODQ0NDE5NTcsLTQyNDAyNzUzNywtMT
-Y0MzA0ODg0OSwxMzM3MDY2MzE5LC0xNTA0MjQ3MjczLDIwNDMz
-NTYwNjAsLTE1MjMwNTM3NTMsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTgyODY3NTAxMCwtMTY4NDQ0MTk1NywtND
+I0MDI3NTM3LC0xNjQzMDQ4ODQ5LDEzMzcwNjYzMTksLTE1MDQy
+NDcyNzMsMjA0MzM1NjA2MCwtMTUyMzA1Mzc1MywtMjA4ODc0Nj
+YxMl19
 -->
