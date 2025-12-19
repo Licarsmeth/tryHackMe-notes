@@ -17,46 +17,7 @@
 		- -c means count
 		- 3 means you send 3 icmp messages, then stop 
 - ***Packet capture in your network (tcpdump)***
-	- **Basic commands**
-		- `tcpdump -i INTERFACE`
-			- Captures packets on a specific network interface
-		- `tcpdump -w FILE`
-			- Writes captured packets to a file
-		- `tcpdump -r FILE`
-			- Reads captured packets from a file
-		- `tcpdump -c COUNT`
-			- Captures a specific number of packets
-		- `tcpdump -n`
-			- Don’t resolve IP addresses
-		- `tcpdump -nn`
-			- Don’t resolve IP addresses and don’t resolve protocol numbers
-		- `tcpdump -v`
-			- Verbose display; verbosity can be increased with `-vv` and `-vvv`	
-	- **Filtering**
-		- By host
-			- `host IP` or `host HOSTNAME`
-			- `src host IP` for source host filtering
-			- `dst host IP` for destination host filtering
-		- By port
-			- `port 53`
-			- add src or dst for source or destination ports
-		- By protocol
-			- Simply add the protocol name, like `ip`, `ip6`, `udp`, `tcp`, and `icmp`
-		- Logical operators
-			- and, or, not
-		- Advanced filtering
-			- There are others like filtering by length (`greater length`), binary operations (`& ! |`, header bytes(`proto[expr:size]`), tcp flags(`tcp-syn`), etc. Visit [here](https://tryhackme.com/room/tcpdump) to know more
-	- **Displaying packets**
-		-  `-q`: Quick output; print brief packet information
-		-   `-e`: Print the link-level header
-		-   `-A`: Show packet data in ASCII
-		-   `-xx`: Show packet data in hexadecimal format, referred to as hex
-		-   `-X`: Show packet headers and data in hex and ASCII
-	- **Examples:**
-		- `tcpdump -i eth0 -c 50 -v` captures and displays 50 packets by listening on the `eth0` interface, which is a wired Ethernet, and displays them verbosely.
-		- `tcpdump -i wlo1 -w data.pcap` captures packets by listening on the `wlo1` interface (the WiFi interface) and writes the packets to `data.pcap`. It will continue till the user interrupts the capture by pressing CTRL-C.
-		- `tcpdump -i eth0 host example.com and tcp port 443 -w https.pcap` will listen on `eth0`, the wired Ethernet interface and filter traffic exchanged with `example.com` that uses `tcp` and `port 443`. In other words, this command is filtering HTTPS traffic related to `example.com`
-		- `tcpdump "tcp[tcpflags] & tcp-syn != 0"` to capture TCP packets with **at least** the SYN (Synchronize) flag set.
+	
 
 
 
@@ -64,8 +25,8 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkzNTQ5ODIzLDE3MjI3MjU0MDIsLTYwMj
-c3ODY5NiwxMTAyNTY3NjgxLC04OTI3ODM1NzcsLTE2NjA1MjQz
-NTAsLTEyNTcxOTEwODQsMjEyMjQ3MTQ2LDEwNjk4NjYwNTAsMz
-g3MjA5MzFdfQ==
+eyJoaXN0b3J5IjpbOTYzODA1MDUsNzkzNTQ5ODIzLDE3MjI3Mj
+U0MDIsLTYwMjc3ODY5NiwxMTAyNTY3NjgxLC04OTI3ODM1Nzcs
+LTE2NjA1MjQzNTAsLTEyNTcxOTEwODQsMjEyMjQ3MTQ2LDEwNj
+k4NjYwNTAsMzg3MjA5MzFdfQ==
 -->
