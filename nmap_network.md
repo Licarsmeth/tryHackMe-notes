@@ -1,6 +1,7 @@
-# Nmap
+## Nmap
+- **Multiple ways to specify 
 
-## Uses
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA5Nzc1MzM5LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTE0OTc5ODM0MDMsLTIwODg3NDY2MTJdfQ
+==
 -->
