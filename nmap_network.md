@@ -7,7 +7,8 @@
 	- nmap -sn `network address`
 		- If our IP address is `192.168.66.89`,  we are scan the `192.168.66.0/24` network by `nmap -sn 192.168.66.0/24` command.
 	- nmap -sL `network address`
-		- 
+		- This scan only lists the targets to scan without actually scanning them. For example, `nmap -sL 192.168.0.1/24` will list the 256 targets that will be scanned. This option helps confirm the targets before running the actual scan.
+
 
 
 
@@ -16,6 +17,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMjgyNzAwNSwtMTUyMzA1Mzc1MywtMj
+eyJoaXN0b3J5IjpbMjA0MzM1NjA2MCwtMTUyMzA1Mzc1MywtMj
 A4ODc0NjYxMl19
 -->
