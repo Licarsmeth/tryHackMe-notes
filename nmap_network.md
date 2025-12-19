@@ -12,16 +12,14 @@
 	- `-sT`
 		- TCP connect scan – complete three-way handshake
 	- `-sS`
-		- TCP SYN – only first step of the three-way handshake
+		- TCP SYN – only first step of the three-way handshake, faster and stealthier
 	- `-sU`
 		- UDP scan
-		`-F`
-
-Fast mode – scans the 100 most common ports
-
-`-p[range]`
-
-Specifies a range of port numbers – `-p-` scans all the ports
+	- `-F`
+		- Fast mode – scans the 100 most common ports
+	- `-p[range]`
+		- Specifies a range of port numbers – `-p-` scans all the ports
+		- For example, `-p10-1024` scans from port 10 to port 1024, while `-p-25` will scan all the ports between 1 and 25.
 
 
 
@@ -31,7 +29,7 @@ Specifies a range of port numbers – `-p-` scans all the ports
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NzU1NTU3NSwxMzM3MDY2MzE5LC0xNT
-A0MjQ3MjczLDIwNDMzNTYwNjAsLTE1MjMwNTM3NTMsLTIwODg3
-NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTE2NDMwNDg4NDksMTMzNzA2NjMxOSwtMT
+UwNDI0NzI3MywyMDQzMzU2MDYwLC0xNTIzMDUzNzUzLC0yMDg4
+NzQ2NjEyXX0=
 -->
