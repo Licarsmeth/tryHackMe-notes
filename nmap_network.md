@@ -8,7 +8,20 @@
 		- If our IP address is `192.168.66.89`,  we are scan the `192.168.66.0/24` network by `nmap -sn 192.168.66.0/24` command.
 	- nmap -sL `ip address(es)`
 		- This scan only lists the targets to scan without actually scanning them. For example, `nmap -sL 192.168.0.1/24` will list the 256 targets that will be scanned. This option helps confirm the targets before running the actual scan.
+- **Port Scanning**
+	- `-sT`
+		- TCP connect scan – complete three-way handshake
+	- `-sS`
+		- TCP SYN – only first step of the three-way handshake
+	- `-sU`
+		- UDP scan
+		`-F`
 
+Fast mode – scans the 100 most common ports
+
+`-p[range]`
+
+Specifies a range of port numbers – `-p-` scans all the ports
 
 
 
@@ -18,7 +31,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzU4NzA1MzEsMTMzNzA2NjMxOSwtMT
-UwNDI0NzI3MywyMDQzMzU2MDYwLC0xNTIzMDUzNzUzLC0yMDg4
-NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMTU0NzU1NTU3NSwxMzM3MDY2MzE5LC0xNT
+A0MjQ3MjczLDIwNDMzNTYwNjAsLTE1MjMwNTM3NTMsLTIwODg3
+NDY2MTJdfQ==
 -->
