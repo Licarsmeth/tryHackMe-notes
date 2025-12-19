@@ -16,7 +16,7 @@
 	- `-sU`
 		- UDP scan
 	- `-F`
-		- Fast mode – scans the 100 most common ports
+		- Fast mode – scans the 100 most common ports, unlike the 1000 common ones by default
 	- `-p[range]`
 		- Specifies a range of port numbers – `-p-` scans all the ports
 		- For example, `-p10-1024` scans from port 10 to port 1024, while `-p-25` will scan all the ports between 1 and 25.
@@ -35,7 +35,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNDAyNzUzNywtMTY0MzA0ODg0OSwxMz
-M3MDY2MzE5LC0xNTA0MjQ3MjczLDIwNDMzNTYwNjAsLTE1MjMw
-NTM3NTMsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTE2ODQ0NDE5NTcsLTQyNDAyNzUzNywtMT
+Y0MzA0ODg0OSwxMzM3MDY2MzE5LC0xNTA0MjQ3MjczLDIwNDMz
+NTYwNjAsLTE1MjMwNTM3NTMsLTIwODg3NDY2MTJdfQ==
 -->
