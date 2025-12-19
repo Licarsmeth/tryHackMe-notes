@@ -39,7 +39,12 @@
 - **Controlling the output**
 	- -v for verbose. 
 		- vv or even vvvv or v4 can be used to increase verbosity. 
-		- can be added while nmap is scanning, by s
+		- can be added while nmap is scanning, by simply typing v
+	- -d for debugging level output 
+		- even more info than -v. 
+		- can also be increased upto -d9, which is a lot
+	- Saving scan report
+		- 
 
 
 
@@ -49,8 +54,8 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg2MTA2MDAzLC02Mjg3NTk1LDE1MzE2NT
-U0NSwtMTY4NDQ0MTk1NywtNDI0MDI3NTM3LC0xNjQzMDQ4ODQ5
-LDEzMzcwNjYzMTksLTE1MDQyNDcyNzMsMjA0MzM1NjA2MCwtMT
-UyMzA1Mzc1MywtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTI4MTY5NjkwMiwtNjI4NzU5NSwxNTMxNj
+U1NDUsLTE2ODQ0NDE5NTcsLTQyNDAyNzUzNywtMTY0MzA0ODg0
+OSwxMzM3MDY2MzE5LC0xNTA0MjQ3MjczLDIwNDMzNTYwNjAsLT
+E1MjMwNTM3NTMsLTIwODg3NDY2MTJdfQ==
 -->
