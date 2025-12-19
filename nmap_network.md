@@ -45,8 +45,8 @@
 		- can also be increased upto -d9, which is a lot
 	- Saving scan report
 		-  `-oN <filename>` - Normal output
-		-   `-oX <filename>` - XML output
-		-  `-oG <filename>` - `grep`-able output (useful for `grep` and `awk`)
+		-   `-oX <filename>` - XML output. Used in tools like metasploit.
+		-  `-oG <filename>` - `grep`-able output (useful for `grep` and `awk`). Better for machine parsing and automation
 		- `-oA <basename>` - Output in all major formats
 
 
@@ -57,8 +57,8 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc0MzUxOTE0LC02Mjg3NTk1LDE1MzE2NT
-U0NSwtMTY4NDQ0MTk1NywtNDI0MDI3NTM3LC0xNjQzMDQ4ODQ5
-LDEzMzcwNjYzMTksLTE1MDQyNDcyNzMsMjA0MzM1NjA2MCwtMT
-UyMzA1Mzc1MywtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTE0NzYwMDYwNzQsLTYyODc1OTUsMTUzMT
+Y1NTQ1LC0xNjg0NDQxOTU3LC00MjQwMjc1MzcsLTE2NDMwNDg4
+NDksMTMzNzA2NjMxOSwtMTUwNDI0NzI3MywyMDQzMzU2MDYwLC
+0xNTIzMDUzNzUzLC0yMDg4NzQ2NjEyXX0=
 -->
