@@ -4,9 +4,9 @@
 	-   IP subnet using `/`: If you want to scan a subnet, you can express it as `192.168.0.1/24`, and this would be equivalent to `192.168.0.0-255`
 	-   Hostname: You can also specify your target by hostname, for example, `example.thm`
 - **Host discovery**
-	- nmap -sn `network address`
+	- nmap -sn `ip address(es)`
 		- If our IP address is `192.168.66.89`,  we are scan the `192.168.66.0/24` network by `nmap -sn 192.168.66.0/24` command.
-	- nmap -sL `network address`
+	- nmap -sL `ip address(es)`
 		- This scan only lists the targets to scan without actually scanning them. For example, `nmap -sL 192.168.0.1/24` will list the 256 targets that will be scanned. This option helps confirm the targets before running the actual scan.
 
 
@@ -17,6 +17,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDQyNDcyNzMsMjA0MzM1NjA2MCwtMT
-UyMzA1Mzc1MywtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTMzNzA2NjMxOSwtMTUwNDI0NzI3MywyMD
+QzMzU2MDYwLC0xNTIzMDUzNzUzLC0yMDg4NzQ2NjEyXX0=
 -->
