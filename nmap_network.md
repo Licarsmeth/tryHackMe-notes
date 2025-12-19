@@ -1,4 +1,7 @@
 ## Nmap
+
+Use with sudo when you can. You get a minimal portion of Nmap’s power when running it as a local user. For instance, Nmap would automatically use SYN scan (`-sS`) if you are running it with `sudo` privileges and will default to connect scan (`-sT`) if run as a local user. The reason is that crafting certain packets, such as sending a TCP SYN packet, requires root privileges.
+
 - **Multiple ways to specify targets**
 	-   IP range using `-`: If you want to scan all the IP addresses from 192.168.0.1 to 192.168.0.10, you can write `192.168.0.1-10`
 	-   IP subnet using `/`: If you want to scan a subnet, you can express it as `192.168.0.1/24`, and this would be equivalent to `192.168.0.0-255`
@@ -52,8 +55,9 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg5NTk2MzI5LC0xNDc2MDA2MDc0LC02Mj
-g3NTk1LDE1MzE2NTU0NSwtMTY4NDQ0MTk1NywtNDI0MDI3NTM3
-LC0xNjQzMDQ4ODQ5LDEzMzcwNjYzMTksLTE1MDQyNDcyNzMsMj
-A0MzM1NjA2MCwtMTUyMzA1Mzc1MywtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTIwMzU5Mzc3MDYsNjg5NTk2MzI5LC0xND
+c2MDA2MDc0LC02Mjg3NTk1LDE1MzE2NTU0NSwtMTY4NDQ0MTk1
+NywtNDI0MDI3NTM3LC0xNjQzMDQ4ODQ5LDEzMzcwNjYzMTksLT
+E1MDQyNDcyNzMsMjA0MzM1NjA2MCwtMTUyMzA1Mzc1MywtMjA4
+ODc0NjYxMl19
 -->
