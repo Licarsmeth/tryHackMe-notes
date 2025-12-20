@@ -1,4 +1,6 @@
 ## Cryptography Basics
+Exchanging keys for symmetric encryption is a widespread **use of asymmetric cryptography. Asymmetric encryption is relatively slow compared to symmetric encryption; therefore, we rely on asymmetric encryption to negotiate and agree on symmetric encryption ciphers and keys.
+
 - **XOR** 
 	- XOR compares two bits and returns 1 if the bits are different and 0 if they are the same
 	- 0 ⊕ 0 = 0, 0 ⊕ 1 = 1, 1 ⊕ 0 = 1, and 1 ⊕ 1 = 0.
@@ -10,5 +12,5 @@
 	- An important thing to remember about modulo is that it’s not reversible. If we are given the equation x%5 = 4, infinite values of x would satisfy this equation.
 	- The modulo operation always returns a non-negative result less than the divisor. This means that for any integer a and positive integer n, the result of a%n will always be in the range 0 to n − 1.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUwMTcxNjU3XX0=
+eyJoaXN0b3J5IjpbMTI3NjM1OTIzNSwzNTAxNzE2NTddfQ==
 -->
