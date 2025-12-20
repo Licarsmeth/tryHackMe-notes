@@ -69,12 +69,13 @@ Diffie Hellman is also an alternative.
 	    6. Encrypted Session  
 		    - AES(K) encrypts all further traffic
 ---
-
+- 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NTgzMjMzMCw5MjM1OTcwMzAsMTYwNz
-YwMTM0NywtNzQ1MDMzNzQyLDg5MTQ3NTUxMCwtMTc5ODEwMzM4
-NywxMjI1MDE4ODEwLC0xNjQ4NzYzNzE3LDMxNzA2MDg2OSwtMT
-AwMzA5ODQ5Nyw2MDEyMTg0OTksMzUwMTcxNjU3XX0=
+eyJoaXN0b3J5IjpbLTg1NzY0MTM3LDE1NzU4MzIzMzAsOTIzNT
+k3MDMwLDE2MDc2MDEzNDcsLTc0NTAzMzc0Miw4OTE0NzU1MTAs
+LTE3OTgxMDMzODcsMTIyNTAxODgxMCwtMTY0ODc2MzcxNywzMT
+cwNjA4NjksLTEwMDMwOTg0OTcsNjAxMjE4NDk5LDM1MDE3MTY1
+N119
 -->
