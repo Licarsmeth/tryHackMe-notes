@@ -1,5 +1,5 @@
 ## Cryptography Basics
-*(XOR, Modulo, RSA, Diffie-Hellman, SSH)*
+*(XOR, Modulo, RSA, Diffie-Hellman, SSH, GPG)*
 
 Exchanging keys for symmetric encryption is a widespread **use of asymmetric cryptography**. Asymmetric encryption is relatively slow compared to symmetric encryption; therefore, we rely on asymmetric encryption to negotiate and agree on symmetric encryption ciphers and keys. 
 Diffie Hellman is also an alternative. 
@@ -69,13 +69,42 @@ Diffie Hellman is also an alternative.
 	    6. Encrypted Session  
 		    - AES(K) encrypts all further traffic
 ---
-- 
+- **GPG (GNU Privacy Guard) - OpenPGP Standard**
+	- Core functions:
 
+		-  Encrypt files/messages with recipient's public key
+    
+		-   Sign data with your private key (prove authorship)
+    
+		-   Create/verify digital signatures
+    
 
+	- Basic workflow:
+
+		1.  gpg --gen-key (generate keypair)
+    
+		2.  gpg --encrypt -r [recipient@example.com](mailto:recipient@example.com) file.txt
+    
+		3.  gpg --decrypt file.txt.gpg
+    
+		4.  gpg --sign file.txt (creates file.txt.gpg)
+    
+		5.  gpg --verify file.txt.gpg
+    
+
+	- Key management:
+
+		-   gpg --list-keys (see public keys)
+    
+		-   gpg --list-secret-keys (your private keys)
+    
+		-   gpg --import key.asc (add others' public keys)
+    
+		-   gpg --export -a "Your Name" > mykey.asc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NzY0MTM3LDE1NzU4MzIzMzAsOTIzNT
-k3MDMwLDE2MDc2MDEzNDcsLTc0NTAzMzc0Miw4OTE0NzU1MTAs
-LTE3OTgxMDMzODcsMTIyNTAxODgxMCwtMTY0ODc2MzcxNywzMT
-cwNjA4NjksLTEwMDMwOTg0OTcsNjAxMjE4NDk5LDM1MDE3MTY1
-N119
+eyJoaXN0b3J5IjpbLTEzOTE3OTUwMTUsMTU3NTgzMjMzMCw5Mj
+M1OTcwMzAsMTYwNzYwMTM0NywtNzQ1MDMzNzQyLDg5MTQ3NTUx
+MCwtMTc5ODEwMzM4NywxMjI1MDE4ODEwLC0xNjQ4NzYzNzE3LD
+MxNzA2MDg2OSwtMTAwMzA5ODQ5Nyw2MDEyMTg0OTksMzUwMTcx
+NjU3XX0=
 -->
