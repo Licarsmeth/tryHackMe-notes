@@ -39,21 +39,12 @@ Diffie Hellman is also an alternative.
 		4. Alice verifies Bob's signature
 	This way, no MITM attacks are possible trying to impersonate them.
 - **SSH**
-	 1. Generate keypair (ONCE)
-		 - `ssh-keygen -t ed25519`
-		-  Creates: ~/.ssh/id_ed25519 (PRIVATE - NEVER SHARE) 
-		-  Creates: ~/.ssh/id_ed25519.pub (PUBLIC - safe to share)  
-	2. Copy public key to server
-		- `ssh-copy-id user@server `
-		- Adds your .pub to server's ~/.ssh/authorized_keys
-	3. SSH login (automatic): 
-		- `ssh user@server`
-		- Client: Signs challenge with PRIVATE key 
-		- Server: Verifies signature with your PUBLIC key in authorized_keys
-		- Result: Logged in - NO PASSWORD!
+- 
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkxNDc1NTEwLC0xNzk4MTAzMzg3LDEyMj
-UwMTg4MTAsLTE2NDg3NjM3MTcsMzE3MDYwODY5LC0xMDAzMDk4
-NDk3LDYwMTIxODQ5OSwzNTAxNzE2NTddfQ==
+eyJoaXN0b3J5IjpbLTExOTg2MTQ5NTksODkxNDc1NTEwLC0xNz
+k4MTAzMzg3LDEyMjUwMTg4MTAsLTE2NDg3NjM3MTcsMzE3MDYw
+ODY5LC0xMDAzMDk4NDk3LDYwMTIxODQ5OSwzNTAxNzE2NTddfQ
+==
 -->
