@@ -70,41 +70,26 @@ Diffie Hellman is also an alternative.
 		    - AES(K) encrypts all further traffic
 ---
 - **GPG (GNU Privacy Guard) - OpenPGP Standard**
+	- (ai generated. for more, do man gpg or go to [the_thm_site](https://tryhackme.com/room/publickeycrypto)
 	- Core functions:
-
 		-  Encrypt files/messages with recipient's public key
-    
-		-   Sign data with your private key (prove authorship)
-    
-		-   Create/verify digital signatures
-    
-
+		-   Sign data with your private key (prove authorship)    
+		-   Create/verify digital signatures   
 	- Basic workflow:
-
-		1.  gpg --gen-key (generate keypair)
-    
-		2.  gpg --encrypt -r [recipient@example.com](mailto:recipient@example.com) file.txt
-    
-		3.  gpg --decrypt file.txt.gpg
-    
-		4.  gpg --sign file.txt (creates file.txt.gpg)
-    
-		5.  gpg --verify file.txt.gpg
-    
-
+		1.  gpg --gen-key (generate keypair)    
+		2.  gpg --encrypt -r [recipient@example.com](mailto:recipient@example.com) file.txt    
+		3.  gpg --decrypt file.txt.gpg    
+		4.  gpg --sign file.txt (creates file.txt.gpg)    
+		5.  gpg --verify file.txt.gpg   
 	- Key management:
-
-		-   gpg --list-keys (see public keys)
-    
-		-   gpg --list-secret-keys (your private keys)
-    
-		-   gpg --import key.asc (add others' public keys)
-    
+		-   gpg --list-keys (see public keys)    
+		-   gpg --list-secret-keys (your private keys)    
+		-   gpg --import key.asc (add others' public keys)    
 		-   gpg --export -a "Your Name" > mykey.asc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTE3OTUwMTUsMTU3NTgzMjMzMCw5Mj
-M1OTcwMzAsMTYwNzYwMTM0NywtNzQ1MDMzNzQyLDg5MTQ3NTUx
-MCwtMTc5ODEwMzM4NywxMjI1MDE4ODEwLC0xNjQ4NzYzNzE3LD
-MxNzA2MDg2OSwtMTAwMzA5ODQ5Nyw2MDEyMTg0OTksMzUwMTcx
-NjU3XX0=
+eyJoaXN0b3J5IjpbLTk2MDM4ODc2MiwxNTc1ODMyMzMwLDkyMz
+U5NzAzMCwxNjA3NjAxMzQ3LC03NDUwMzM3NDIsODkxNDc1NTEw
+LC0xNzk4MTAzMzg3LDEyMjUwMTg4MTAsLTE2NDg3NjM3MTcsMz
+E3MDYwODY5LC0xMDAzMDk4NDk3LDYwMTIxODQ5OSwzNTAxNzE2
+NTddfQ==
 -->
