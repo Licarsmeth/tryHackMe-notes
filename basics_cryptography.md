@@ -39,11 +39,32 @@ Diffie Hellman is also an alternative.
 		4. Alice verifies Bob's signature
 	This way, no MITM attacks are possible trying to impersonate them.
 - **SSH**
-	- 
+	-   PRE-SETUP (one-time only)  
+	    1. ssh-keygen -t ed25519  
+		    - Creates ~/.ssh/id_ed25519 (private - secret)  
+		    - Creates ~/.ssh/id_ed25519.pub (public - shareable)  
+	    2. ssh-copy-id user@server  
+		    - Requires password auth first  
+		    - Appends your .pub to server ~/.ssh/authorized_keys
+	-  RUNTIME CONNECTION (every ssh)  
+	    1. Client: ssh user@server  
+	    2. Server sends PUBLIC HOST KEY (ed25519-sha256 ...)  
+    2.3 Client checks ~/.ssh/known_hosts  
+    - First time? "Are you sure?" → yes → saves fingerprint  
+    - Later: Auto-verifies silently  
+    2.4 DH Key Exchange  
+    - Creates shared AES session key K (never transmitted)  
+    2.5 USER AUTHENTICATION (key method)  
+    2.5.1 Client: "Offering public key id_ed25519 SHA256:abc..."  
+    2.5.2 Server: "Found in authorized_keys → sign [RANDOM NONCE]"  
+    2.5.3 Client: Private key signs NONCE → sends signature  
+    2.5.4 Server: Your public key verifies signature → "Auth OK!"  
+    2.6 Encrypted Session  
+    - AES(K) encrypts all further traffic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MTkwOTk1OSw4OTE0NzU1MTAsLTE3OT
-gxMDMzODcsMTIyNTAxODgxMCwtMTY0ODc2MzcxNywzMTcwNjA4
-NjksLTEwMDMwOTg0OTcsNjAxMjE4NDk5LDM1MDE3MTY1N119
+eyJoaXN0b3J5IjpbLTYzNTc5MDA2LDg5MTQ3NTUxMCwtMTc5OD
+EwMzM4NywxMjI1MDE4ODEwLC0xNjQ4NzYzNzE3LDMxNzA2MDg2
+OSwtMTAwMzA5ODQ5Nyw2MDEyMTg0OTksMzUwMTcxNjU3XX0=
 -->
