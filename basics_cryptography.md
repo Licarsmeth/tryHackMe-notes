@@ -1,4 +1,6 @@
 ## Cryptography Basics
+*(XOR, Modulo, RSA, Diffie-Hellman, SSH)*
+
 Exchanging keys for symmetric encryption is a widespread **use of asymmetric cryptography**. Asymmetric encryption is relatively slow compared to symmetric encryption; therefore, we rely on asymmetric encryption to negotiate and agree on symmetric encryption ciphers and keys. 
 Diffie Hellman is also an alternative. 
 
@@ -64,8 +66,8 @@ Diffie Hellman is also an alternative.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNzYwMTM0NywtNzQ1MDMzNzQyLDg5MT
-Q3NTUxMCwtMTc5ODEwMzM4NywxMjI1MDE4ODEwLC0xNjQ4NzYz
-NzE3LDMxNzA2MDg2OSwtMTAwMzA5ODQ5Nyw2MDEyMTg0OTksMz
-UwMTcxNjU3XX0=
+eyJoaXN0b3J5IjpbOTIzNTk3MDMwLDE2MDc2MDEzNDcsLTc0NT
+AzMzc0Miw4OTE0NzU1MTAsLTE3OTgxMDMzODcsMTIyNTAxODgx
+MCwtMTY0ODc2MzcxNywzMTcwNjA4NjksLTEwMDMwOTg0OTcsNj
+AxMjE4NDk5LDM1MDE3MTY1N119
 -->
