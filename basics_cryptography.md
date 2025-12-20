@@ -1,5 +1,6 @@
 ## Cryptography Basics
-Exchanging keys for symmetric encryption is a widespread **use of asymmetric cryptography**. Asymmetric encryption is relatively slow compared to symmetric encryption; therefore, we rely on asymmetric encryption to negotiate and agree on symmetric encryption ciphers and keys.
+Exchanging keys for symmetric encryption is a widespread **use of asymmetric cryptography**. Asymmetric encryption is relatively slow compared to symmetric encryption; therefore, we rely on asymmetric encryption to negotiate and agree on symmetric encryption ciphers and keys. 
+Diffie Hellman is also an alternative. 
 
 - **XOR** 
 	- XOR compares two bits and returns 1 if the bits are different and 0 if they are the same
@@ -23,10 +24,10 @@ Exchanging keys for symmetric encryption is a widespread **use of asymmetric cry
 		- The private key is n and d
 		- m is used to represent the original message, i.e., plaintext
 		- c represents the encrypted text, i.e., ciphertext
-- **Diffie Hellman **
+- **Diffie Hellman (Key Exchange)**
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI5NTI0NDIzLC0xMDAzMDk4NDk3LDYwMT
-IxODQ5OSwzNTAxNzE2NTddfQ==
+eyJoaXN0b3J5IjpbLTEwNDQxMzUwOTUsLTEwMDMwOTg0OTcsNj
+AxMjE4NDk5LDM1MDE3MTY1N119
 -->
