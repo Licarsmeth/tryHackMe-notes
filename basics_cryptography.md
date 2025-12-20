@@ -38,9 +38,10 @@ Diffie Hellman is also an alternative.
 		3. Bob signs his public value B=19 with HIS PRIVATE key 
 		4. Alice verifies Bob's signature
 	This way, no MITM attacks are possible trying to impersonate them.
+- *SSH*
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTgxMDMzODcsMTIyNTAxODgxMCwtMT
-Y0ODc2MzcxNywzMTcwNjA4NjksLTEwMDMwOTg0OTcsNjAxMjE4
-NDk5LDM1MDE3MTY1N119
+eyJoaXN0b3J5IjpbLTQ0NDQzNDkwOCwtMTc5ODEwMzM4NywxMj
+I1MDE4ODEwLC0xNjQ4NzYzNzE3LDMxNzA2MDg2OSwtMTAwMzA5
+ODQ5Nyw2MDEyMTg0OTksMzUwMTcxNjU3XX0=
 -->
