@@ -11,6 +11,9 @@ Exchanging keys for symmetric encryption is a widespread **use of asymmetric cry
 	- 23%7 = 2 because 23 divided by 7 is 3 with a remainder of 2, i.e., 23 = 3 × 7 + 2
 	- An important thing to remember about modulo is that it’s not reversible. If we are given the equation x%5 = 4, infinite values of x would satisfy this equation.
 	- The modulo operation always returns a non-negative result less than the divisor. This means that for any integer a and positive integer n, the result of a%n will always be in the range 0 to n − 1.
+- **RSA**
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAxMjE4NDk5LDM1MDE3MTY1N119
+eyJoaXN0b3J5IjpbLTE1MDUyNzcwMDcsNjAxMjE4NDk5LDM1MD
+E3MTY1N119
 -->
