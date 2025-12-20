@@ -39,12 +39,11 @@ Diffie Hellman is also an alternative.
 		4. Alice verifies Bob's signature
 	This way, no MITM attacks are possible trying to impersonate them.
 - **SSH**
-- 
+	- 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTg2MTQ5NTksODkxNDc1NTEwLC0xNz
-k4MTAzMzg3LDEyMjUwMTg4MTAsLTE2NDg3NjM3MTcsMzE3MDYw
-ODY5LC0xMDAzMDk4NDk3LDYwMTIxODQ5OSwzNTAxNzE2NTddfQ
-==
+eyJoaXN0b3J5IjpbLTg2MTkwOTk1OSw4OTE0NzU1MTAsLTE3OT
+gxMDMzODcsMTIyNTAxODgxMCwtMTY0ODc2MzcxNywzMTcwNjA4
+NjksLTEwMDMwOTg0OTcsNjAxMjE4NDk5LDM1MDE3MTY1N119
 -->
