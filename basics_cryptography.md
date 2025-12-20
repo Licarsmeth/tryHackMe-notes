@@ -30,8 +30,10 @@ Diffie Hellman is also an alternative.
 		3. It is time for each party to calculate their **public key** using their private key from step 2 and the agreed-upon public variables from step 1. Alice calculates _A_ = _g__a_ mod _p_ = 313 mod 29 = 19 and Bob calculates _B_ = _g__b_ mod _p_ = 315 mod 29 = 26. These are the public keys.
 		4. Alice and Bob send the keys to each other. Bob receives _A_ = _g__a_ mod _p_ = 19, i.e., Alice’s public key. And Alice receives _B_ = _g__b_ mod _p_ = 26, i.e., Bob’s public key. This step is called the **key exchange**.
 		5. Alice and Bob can finally calculate the **shared secret** using the received public key and their own private key. Alice calculates _B__a_ mod _p_ = 2613 mod 29 = 10 and Bob calculates _A__b_ mod _p_ = 1915 mod 29 = 10. Both calculations yield the same result, _g__a__b_ mod _p_ = 10, the shared secret key.
+	- Note on RSA and Diffie Hellman usage:
+		- Diffie-Hellman Key Exchange is often used alongside RSA public key cryptography. Diffie-Hellman is used for key agreement, while RSA is used for digital signatures, key transport, and authentication, among many others. For instance, RSA helps prove the identity of the person you’re talking to via digital signing, as you can confirm based on their public key. This would prevent someone from attacking the connection with a man-in-the-middle attack against Alice by pretending to be Bob. In brief, Diffie-Hellman and RSA are incorporated into many security protocols and standards to provide a comprehensive security solution.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE3MDYwODY5LC0xMDAzMDk4NDk3LDYwMT
-IxODQ5OSwzNTAxNzE2NTddfQ==
+eyJoaXN0b3J5IjpbLTE2NDg3NjM3MTcsMzE3MDYwODY5LC0xMD
+AzMDk4NDk3LDYwMTIxODQ5OSwzNTAxNzE2NTddfQ==
 -->
