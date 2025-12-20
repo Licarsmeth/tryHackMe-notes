@@ -23,10 +23,10 @@ Exchanging keys for symmetric encryption is a widespread **use of asymmetric cry
 		- The private key is n and d
 		- m is used to represent the original message, i.e., plaintext
 		- c represents the encrypted text, i.e., ciphertext
-- **Diffie Hellman**
+- **Diffie Hellman **
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDMwOTg0OTcsNjAxMjE4NDk5LDM1MD
-E3MTY1N119
+eyJoaXN0b3J5IjpbNTI5NTI0NDIzLC0xMDAzMDk4NDk3LDYwMT
+IxODQ5OSwzNTAxNzE2NTddfQ==
 -->
