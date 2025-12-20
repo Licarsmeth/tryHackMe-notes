@@ -54,7 +54,7 @@ Diffie Hellman is also an alternative.
 		    - Later: Auto-verifies silently  
 	    4. DH Key Exchange  
 		    - Creates shared AES session key K (never transmitted)  
-	    5. USER AUTHENTICATION (key method)  
+	    5. USER AUTHENTICATION (key method, uses stuff like RSA for signatures)  
 		    - Client: "Offering public key id_ed25519 SHA256:abc..."  
 		    - Server: "Found in authorized_keys → sign [RANDOM NONCE]"  
 		    - Client: Private key signs NONCE → sends signature  
@@ -64,7 +64,8 @@ Diffie Hellman is also an alternative.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NTAzMzc0Miw4OTE0NzU1MTAsLTE3OT
-gxMDMzODcsMTIyNTAxODgxMCwtMTY0ODc2MzcxNywzMTcwNjA4
-NjksLTEwMDMwOTg0OTcsNjAxMjE4NDk5LDM1MDE3MTY1N119
+eyJoaXN0b3J5IjpbMTYwNzYwMTM0NywtNzQ1MDMzNzQyLDg5MT
+Q3NTUxMCwtMTc5ODEwMzM4NywxMjI1MDE4ODEwLC0xNjQ4NzYz
+NzE3LDMxNzA2MDg2OSwtMTAwMzA5ODQ5Nyw2MDEyMTg0OTksMz
+UwMTcxNjU3XX0=
 -->
