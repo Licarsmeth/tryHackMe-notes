@@ -48,10 +48,12 @@ Diffie Hellman is also an alternative.
 		- Adds your .pub to server's ~/.ssh/authorized_keys
 	3. SSH login (automatic): 
 		- `ssh user@server`
-		- Client: Signs challenge with PRIVATE key # Server: Verifies signature with your PUBLIC key in authorized_keys # Result: Logged in - NO PASSWORD!
+		- Client: Signs challenge with PRIVATE key 
+		- Server: Verifies signature with your PUBLIC key in authorized_keys
+		- Result: Logged in - NO PASSWORD!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NTkzNDA0NCwtMTc5ODEwMzM4NywxMj
-I1MDE4ODEwLC0xNjQ4NzYzNzE3LDMxNzA2MDg2OSwtMTAwMzA5
-ODQ5Nyw2MDEyMTg0OTksMzUwMTcxNjU3XX0=
+eyJoaXN0b3J5IjpbODkxNDc1NTEwLC0xNzk4MTAzMzg3LDEyMj
+UwMTg4MTAsLTE2NDg3NjM3MTcsMzE3MDYwODY5LC0xMDAzMDk4
+NDk3LDYwMTIxODQ5OSwzNTAxNzE2NTddfQ==
 -->
