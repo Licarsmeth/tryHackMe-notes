@@ -10,10 +10,12 @@ Diffie Hellman is also an alternative.
 	- Consider the binary values P and K, where P is the plaintext, and K is the secret key. The ciphertext is C = P ⊕ K.
 	- If we know C and K, we can recover P. We start with C ⊕ K = (P ⊕ K) ⊕ K. But we know that (P ⊕ K) ⊕ K = P ⊕ (K ⊕ K) because XOR is associative. Furthermore, we know that K ⊕ K = 0; consequently, (P ⊕ K) ⊕ K = P ⊕ (K ⊕ K) = P ⊕ 0 = P.
 	- In practice, it is more complicated as we need a secret key as long as the plaintext.
+---
 - **Modulo**
 	- 23%7 = 2 because 23 divided by 7 is 3 with a remainder of 2, i.e., 23 = 3 × 7 + 2
 	- An important thing to remember about modulo is that it’s not reversible. If we are given the equation x%5 = 4, infinite values of x would satisfy this equation.
 	- The modulo operation always returns a non-negative result less than the divisor. This means that for any integer a and positive integer n, the result of a%n will always be in the range 0 to n − 1.
+---
 - **RSA**
 	- RSA is asymmetric cryptography using large prime products for public-key encryption, digital signatures, and authentication—public key encrypts/verifies, private key decrypts/signs.
 	1.  Bob chooses two prime numbers: _p_ = 157 and _q_ = 199. He calculates _n_ = _p_ × _q_ = 31243.
@@ -27,8 +29,9 @@ Diffie Hellman is also an alternative.
 		- The private key is n and d
 		- m is used to represent the original message, i.e., plaintext
 		- c represents the encrypted text, i.e., ciphertext
+---
 - **Diffie Hellman (Key Exchange)**	
-	- 
+	- Diffie-Hellman enables two parties to agree on a shared secret key over insecure channels using modular exponentiation—public values exchanged, private exponents compute identical session key mathematically.
 	1.  Alice and Bob agree on the **public variables**: a large prime number _p_ and a generator _g_, where 0 < _g_ < _p_. These values will be disclosed publicly over the communication channel. Although insecurely small, we will choose _p_ = 29 and _g_ = 3 to simplify our calculations.
 	2.  Each party chooses a private integer. As a numerical example, Alice chooses _a_ = 13, and Bob chooses _b_ = 15. Each of these values represents a **private key** and must not be disclosed.
 	3. It is time for each party to calculate their **public key** using their private key from step 2 and the agreed-upon public variables from step 1. Alice calculates _A_ = _g__a_ mod _p_ = 313 mod 29 = 19 and Bob calculates _B_ = _g__b_ mod _p_ = 315 mod 29 = 26. These are the public keys.
@@ -41,6 +44,7 @@ Diffie Hellman is also an alternative.
 		3. Bob signs his public value B=19 with HIS PRIVATE key 
 		4. Alice verifies Bob's signature
 	This way, no MITM attacks are possible trying to impersonate them.
+---
 - **SSH**
 	-   PRE-SETUP (one-time only)  
 	    1. ssh-keygen -t ed25519  
@@ -64,11 +68,13 @@ Diffie Hellman is also an alternative.
 		    - Server: Your public key verifies signature → "Auth OK!"  
 	    6. Encrypted Session  
 		    - AES(K) encrypts all further traffic
+---
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc4NjE1NDUxLDkyMzU5NzAzMCwxNjA3Nj
-AxMzQ3LC03NDUwMzM3NDIsODkxNDc1NTEwLC0xNzk4MTAzMzg3
-LDEyMjUwMTg4MTAsLTE2NDg3NjM3MTcsMzE3MDYwODY5LC0xMD
-AzMDk4NDk3LDYwMTIxODQ5OSwzNTAxNzE2NTddfQ==
+eyJoaXN0b3J5IjpbMTU3NTgzMjMzMCw5MjM1OTcwMzAsMTYwNz
+YwMTM0NywtNzQ1MDMzNzQyLDg5MTQ3NTUxMCwtMTc5ODEwMzM4
+NywxMjI1MDE4ODEwLC0xNjQ4NzYzNzE3LDMxNzA2MDg2OSwtMT
+AwMzA5ODQ5Nyw2MDEyMTg0OTksMzUwMTcxNjU3XX0=
 -->
