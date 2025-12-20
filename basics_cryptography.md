@@ -38,10 +38,15 @@ Diffie Hellman is also an alternative.
 		3. Bob signs his public value B=19 with HIS PRIVATE key 
 		4. Alice verifies Bob's signature
 	This way, no MITM attacks are possible trying to impersonate them.
-- *SSH*
+- **SSH**
+	 1. Generate keypair (ONCE) ssh-keygen -t ed25519 
+		-  Creates: ~/.ssh/id_ed25519 (PRIVATE - NEVER SHARE) 
+		-  Creates: ~/.ssh/id_ed25519.pub (PUBLIC - safe to share)  
+	2. Copy public key to server ssh-copy-id user@server 
+		3.  Adds your .pub to server's ~/.ssh/authorized_keys   # 3. SSH login (automatic): ssh user@server # Client: Signs challenge with PRIVATE key # Server: Verifies signature with your PUBLIC key in authorized_keys # Result: Logged in - NO PASSWORD!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NDQzNDkwOCwtMTc5ODEwMzM4NywxMj
+eyJoaXN0b3J5IjpbLTg3MTQ0ODEyMCwtMTc5ODEwMzM4NywxMj
 I1MDE4ODEwLC0xNjQ4NzYzNzE3LDMxNzA2MDg2OSwtMTAwMzA5
 ODQ5Nyw2MDEyMTg0OTksMzUwMTcxNjU3XX0=
 -->
