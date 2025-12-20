@@ -70,7 +70,7 @@ Diffie Hellman is also an alternative.
 		    - AES(K) encrypts all further traffic
 ---
 - **GPG (GNU Privacy Guard) - OpenPGP Standard**
-	- (ai generated. for more, do man gpg or go to [the_thm_site](https://tryhackme.com/room/publickeycrypto)
+	- (ai generated. for more, do man gpg or go to [the_thm_site](https://tryhackme.com/room/publickeycrypto))
 	- Core functions:
 		-  Encrypt files/messages with recipient's public key
 		-   Sign data with your private key (prove authorship)    
@@ -87,7 +87,7 @@ Diffie Hellman is also an alternative.
 		-   gpg --import key.asc (add others' public keys)    
 		-   gpg --export -a "Your Name" > mykey.asc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MDM4ODc2MiwxNTc1ODMyMzMwLDkyMz
+eyJoaXN0b3J5IjpbMTU3Njg5NjU2MywxNTc1ODMyMzMwLDkyMz
 U5NzAzMCwxNjA3NjAxMzQ3LC03NDUwMzM3NDIsODkxNDc1NTEw
 LC0xNzk4MTAzMzg3LDEyMjUwMTg4MTAsLTE2NDg3NjM3MTcsMz
 E3MDYwODY5LC0xMDAzMDk4NDk3LDYwMTIxODQ5OSwzNTAxNzE2
