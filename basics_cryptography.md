@@ -13,6 +13,7 @@ Diffie Hellman is also an alternative.
 	- An important thing to remember about modulo is that it’s not reversible. If we are given the equation x%5 = 4, infinite values of x would satisfy this equation.
 	- The modulo operation always returns a non-negative result less than the divisor. This means that for any integer a and positive integer n, the result of a%n will always be in the range 0 to n − 1.
 - **RSA**
+	- RSA is a public-key encryption algorithm that enables secure data transmission over insecure channels. With an insecure channel, we expect adversaries to eavesdrop on it.
 	1.  Bob chooses two prime numbers: _p_ = 157 and _q_ = 199. He calculates _n_ = _p_ × _q_ = 31243.
 	2.  With _ϕ_(_n_) = _n_ − _p_ − _q_ + 1 = 31243 − 157 − 199 + 1 = 30888, Bob selects _e_ = 163 such that _e_ is relatively prime to _ϕ_(_n_); moreover, he selects _d_ = 379, where _e_ × _d_ = 1 mod _ϕ_(_n_), i.e., _e_ × _d_ = 163 × 379 = 61777 and 61777 mod 30888 = 1. The public key is (_n_,_e_), i.e., (31243,163) and the private key is $(n,d), i.e., (31243,379).
 	3.  Let’s say that the value they want to encrypt is _x_ = 13, then Alice would calculate and send _y_ = _x__e_ mod _n_ = 13163 mod 31243 = 16341.
@@ -34,6 +35,7 @@ Diffie Hellman is also an alternative.
 		- Diffie-Hellman Key Exchange is often used alongside RSA public key cryptography. Diffie-Hellman is used for key agreement, while RSA is used for digital signatures, key transport, and authentication, among many others. For instance, RSA helps prove the identity of the person you’re talking to via digital signing, as you can confirm based on their public key. This would prevent someone from attacking the connection with a man-in-the-middle attack against Alice by pretending to be Bob. In brief, Diffie-Hellman and RSA are incorporated into many security protocols and standards to provide a comprehensive security solution.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDg3NjM3MTcsMzE3MDYwODY5LC0xMD
-AzMDk4NDk3LDYwMTIxODQ5OSwzNTAxNzE2NTddfQ==
+eyJoaXN0b3J5IjpbMTIyNTAxODgxMCwtMTY0ODc2MzcxNywzMT
+cwNjA4NjksLTEwMDMwOTg0OTcsNjAxMjE4NDk5LDM1MDE3MTY1
+N119
 -->
