@@ -57,7 +57,7 @@ Diffie Hellman is also an alternative.
 	    1. Client: ssh user@server  
 	    2. Server sends PUBLIC HOST KEY (ed25519-sha256 ...)  
 	    3. Client checks ~/.ssh/known_hosts  
-			- First time? "Are you sure?" → yes → saves fingerprint  
+			- First time? "Are you sure?" to client → yes → saves fingerprint  
 		    - Later: Auto-verifies silently  
 	    4. DH Key Exchange  
 		    - Creates shared AES session key K (never transmitted)  
@@ -87,9 +87,9 @@ Diffie Hellman is also an alternative.
 		-   gpg --import key.asc (add others' public keys)    
 		-   gpg --export -a "Your Name" > mykey.asc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3Njg5NjU2MywxNTc1ODMyMzMwLDkyMz
-U5NzAzMCwxNjA3NjAxMzQ3LC03NDUwMzM3NDIsODkxNDc1NTEw
-LC0xNzk4MTAzMzg3LDEyMjUwMTg4MTAsLTE2NDg3NjM3MTcsMz
-E3MDYwODY5LC0xMDAzMDk4NDk3LDYwMTIxODQ5OSwzNTAxNzE2
-NTddfQ==
+eyJoaXN0b3J5IjpbLTQ1MTA0MTAyMSwxNTc2ODk2NTYzLDE1Nz
+U4MzIzMzAsOTIzNTk3MDMwLDE2MDc2MDEzNDcsLTc0NTAzMzc0
+Miw4OTE0NzU1MTAsLTE3OTgxMDMzODcsMTIyNTAxODgxMCwtMT
+Y0ODc2MzcxNywzMTcwNjA4NjksLTEwMDMwOTg0OTcsNjAxMjE4
+NDk5LDM1MDE3MTY1N119
 -->
