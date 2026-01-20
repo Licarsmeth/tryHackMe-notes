@@ -1,5 +1,6 @@
 ## Logs
 - Types (SANSAA)
+	- System, Application, Network, Security, Access, Audit
 	- **System**
 		- The system logs can be helpful in troubleshooting running issues in the OS. These logs provide information on various operating system activities.
 		- Examples
@@ -44,5 +45,5 @@
 			- User Activity events  
 			- Policy Enforcement events
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU5MDE3MDc2XX0=
+eyJoaXN0b3J5IjpbLTMwMTg4NTQyNSw0NTkwMTcwNzZdfQ==
 -->
