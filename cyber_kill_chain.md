@@ -12,7 +12,7 @@ RWDEICA
 2.  Weaponization - Create malware payload (exploit + backdoor)
     
 3.  Delivery - Transmit payload (phishing email, USB, watering hole)
-	- 
+	- Watering hole attacks are targeted and designed to aim at a specific group of people by compromising the website they are usually visiting, redirecting them to a malicious website of the attacker's choice or creation
 
 5.  Exploitation - Trigger vulnerability (buffer overflow, XSS)
     
@@ -27,6 +27,6 @@ Break chain at any phase stops attack
 Recon block = Nmap/IDS signatures  
 C2 kill = network segmentation
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTY0NTI1NjksLTE1OTQyMDA5MjYsND
-QyODUxNTIyXX0=
+eyJoaXN0b3J5IjpbMTkyNzEyMTMxLC0xNTk0MjAwOTI2LDQ0Mj
+g1MTUyMl19
 -->
