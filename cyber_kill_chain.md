@@ -14,9 +14,9 @@ RWDEICA
 3.  Delivery - Transmit payload (phishing email, USB, watering hole)
 	- Watering hole attacks are targeted and designed to aim at a specific group of people by compromising the website they are usually visiting, redirecting them to a malicious website of the attacker's choice or creation
 
-5.  Exploitation - Trigger vulnerability (buffer overflow, XSS)
+5.  Exploitation - Trigger vulnerability (buffer overflow, XSS, zero-day)
     
-6.  Installation - Drop persistence (backdoor, rootkit)
+6.  Installation - Drop persistence (backdoor, rootkit, and a LOT more ways)
     
 7.  Command and Control - Phone home to C2 server (beacons, DNS tunneling)
     
@@ -27,6 +27,6 @@ Break chain at any phase stops attack
 Recon block = Nmap/IDS signatures  
 C2 kill = network segmentation
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNzEyMTMxLC0xNTk0MjAwOTI2LDQ0Mj
-g1MTUyMl19
+eyJoaXN0b3J5IjpbLTk0NTcwNDAwMiwxOTI3MTIxMzEsLTE1OT
+QyMDA5MjYsNDQyODUxNTIyXX0=
 -->
