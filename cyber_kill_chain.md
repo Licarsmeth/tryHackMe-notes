@@ -16,7 +16,7 @@ RWDEICA
 
 5.  Exploitation - Trigger vulnerability (buffer overflow, XSS, zero-day)
     
-6.  Installation - Drop persistence (backdoor, rootkit, and a LOT more ways)
+6.  Installation - Drop persistence (backdoor, rootkit, and a LOT more things, like timestomping can also be done here)
     
 7.  Command and Control - Phone home to C2 server (beacons, DNS tunneling)
     
@@ -27,6 +27,6 @@ Break chain at any phase stops attack
 Recon block = Nmap/IDS signatures  
 C2 kill = network segmentation
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NTcwNDAwMiwxOTI3MTIxMzEsLTE1OT
-QyMDA5MjYsNDQyODUxNTIyXX0=
+eyJoaXN0b3J5IjpbLTEzNjkzNTA5NzYsMTkyNzEyMTMxLC0xNT
+k0MjAwOTI2LDQ0Mjg1MTUyMl19
 -->
