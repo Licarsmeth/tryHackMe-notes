@@ -5,6 +5,9 @@ RWDEICA
 (Ready to Win? Don't Engage In Combat Attack)
 
 1.  Reconnaissance - Target research (OSINT, employee names, tech stack)
+	- Type- active recon, passive recon
+	- Eg: Email harvesting
+	- Tools: Hunter.io, OSINT Framework
     
 2.  Weaponization - Create malware payload (exploit + backdoor)
     
@@ -23,5 +26,5 @@ Break chain at any phase stops attack
 Recon block = Nmap/IDS signatures  
 C2 kill = network segmentation
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQyODUxNTIyXX0=
+eyJoaXN0b3J5IjpbLTE1OTQyMDA5MjYsNDQyODUxNTIyXX0=
 -->
