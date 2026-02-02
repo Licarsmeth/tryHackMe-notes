@@ -18,7 +18,7 @@ RWDEICA
     
 6.  Installation - Drop persistence (backdoor, rootkit, and a LOT more things- like timestomping- can also be done here)
     
-7.  Command and Control - Phone home to C2 server (beacons, DNS tunneling)
+7.  Command and Control - Phone home to C2 server (DNS tunneling, beacons like  http on port 80 or https on 443)
     
 8.  Actions on Objectives - Exfil data, ransomware, lateral movement
     
@@ -27,6 +27,6 @@ Break chain at any phase stops attack
 Recon block = Nmap/IDS signatures  
 C2 kill = network segmentation
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5OTcyMTAwNiwxOTI3MTIxMzEsLTE1OT
-QyMDA5MjYsNDQyODUxNTIyXX0=
+eyJoaXN0b3J5IjpbLTg0NjIwMDc5NSwtNTk5NzIxMDA2LDE5Mj
+cxMjEzMSwtMTU5NDIwMDkyNiw0NDI4NTE1MjJdfQ==
 -->
