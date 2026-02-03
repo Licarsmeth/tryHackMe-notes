@@ -2,7 +2,7 @@
 
 
 - In (Initial Foothold)  
-RWDSEPDCP ( just add SuDiP, SDP, Social eng, Def ev, Piv, to cyber kill chain. also remove the last Action, oh and installation is now persistence
+RWDSEPDCP ( just add SuDiP, SDP, Social eng, Def ev, Piv, to cyber kill chain's RWDEICA. also remove the last Action, oh and installation is now persistence. Doesn't make much sense ik, but it does for me hehe)
 	- Reconnaissance - Target research via OSINT, social media scraping, network enumeration  
 	- Weaponization - Bundle exploit with backdoor into deliverable payload  
 	- Delivery - Phishing email, malicious USB, compromised watering hole website  
@@ -14,7 +14,7 @@ RWDSEPDCP ( just add SuDiP, SDP, Social eng, Def ev, Piv, to cyber kill chain. a
 	- Pivoting - Use compromised host as jumpbox to deeper network segments
 
 - Through (Network Propagation)  
-
+DPECL 
 	- Discovery - Map internal network, AD enumeration, share discovery  
 	- Privilege Escalation - Exploit kernel bugs, pass-the-hash, token impersonation  
 	- Execution - Run payloads via WMI, PowerShell, scheduled tasks
@@ -29,5 +29,5 @@ RWDSEPDCP ( just add SuDiP, SDP, Social eng, Def ev, Piv, to cyber kill chain. a
 	- Impact - Deploy ransomware, wipe data, destroy backups
 	- Objectives: Achieving the final, overarching goal of the attack
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTQzODQ3MDgsLTk4MDEzNTMxM119
+eyJoaXN0b3J5IjpbMTQyMTU2MTM0NywtOTgwMTM1MzEzXX0=
 -->
