@@ -2,7 +2,7 @@
 
 
 - In (Initial Foothold)  
-RWDEIC (all of cyber kill chain except Action on objective)
+RWDSEPDCP ( rwd sep dcp- 
 	- Reconnaissance - Target research via OSINT, social media scraping, network enumeration  
 	- Weaponization - Bundle exploit with backdoor into deliverable payload  
 	- Delivery - Phishing email, malicious USB, compromised watering hole website  
@@ -14,7 +14,7 @@ RWDEIC (all of cyber kill chain except Action on objective)
 	- Pivoting - Use compromised host as jumpbox to deeper network segments
 
 - Through (Network Propagation)  
-DPCLEP (D PC LEP, the pc left to p)
+
 	- Discovery - Map internal network, AD enumeration, share discovery  
 	- Privilege Escalation - Exploit kernel bugs, pass-the-hash, token impersonation  
 	- Execution - Run payloads via WMI, PowerShell, scheduled tasks
@@ -29,5 +29,5 @@ DPCLEP (D PC LEP, the pc left to p)
 	- Impact - Deploy ransomware, wipe data, destroy backups
 	- Objectives: Achieving the final, overarching goal of the attack
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MzAxMDk2MCwtOTgwMTM1MzEzXX0=
+eyJoaXN0b3J5IjpbLTE3MDUyMDQ1NzYsLTk4MDEzNTMxM119
 -->
