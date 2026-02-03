@@ -2,7 +2,7 @@
 
 
 - In (Initial Foothold)  
-RWDSEPDCP ( rwd sep dcp- 
+RWDSEPDCP ( just add SuDiP, SDP, Social eng, Def ev, Piv, to cyber kill chain. also remove the last Action, oh and installation is now persistence
 	- Reconnaissance - Target research via OSINT, social media scraping, network enumeration  
 	- Weaponization - Bundle exploit with backdoor into deliverable payload  
 	- Delivery - Phishing email, malicious USB, compromised watering hole website  
@@ -29,5 +29,5 @@ RWDSEPDCP ( rwd sep dcp-
 	- Impact - Deploy ransomware, wipe data, destroy backups
 	- Objectives: Achieving the final, overarching goal of the attack
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDUyMDQ1NzYsLTk4MDEzNTMxM119
+eyJoaXN0b3J5IjpbLTEwMTQzODQ3MDgsLTk4MDEzNTMxM119
 -->
