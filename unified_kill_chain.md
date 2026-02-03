@@ -6,6 +6,7 @@ RWDEIC (all of cyber kill chain except Action on objective)
 	- Reconnaissance - Target research via OSINT, social media scraping, network enumeration  
 	- Weaponization - Bundle exploit with backdoor into deliverable payload  
 	- Delivery - Phishing email, malicious USB, compromised watering hole website  
+	- Social Engineering: Manipulating users to gain access.
 	- Exploitation - Trigger vuln (buffer overflow, XSS) to gain code execution  
 	- Installation - Drop malware for persistence (rootkit, scheduled task)  
 	- Command and Control - Establish beacon to attacker's C2 server (HTTP, DNS tunneling)
@@ -25,5 +26,5 @@ CEI (See from ee, this eye, C E I)
 	- Exfiltration - Tunnel data out via DNS, HTTP POST, cloud sync  
 	- Impact - Deploy ransomware, wipe data, destroy backups
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MDEzNTMxM119
+eyJoaXN0b3J5IjpbMTEyOTUxMTQ4NywtOTgwMTM1MzEzXX0=
 -->
