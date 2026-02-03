@@ -14,7 +14,7 @@ RWDSEPDCP ( just add SuDiP, SDP, Social eng, Def ev, Piv, to cyber kill chain's 
 	- Pivoting - Use compromised host as jumpbox to deeper network segments
 
 - Through (Network Propagation)  
-DPECL 
+DPECL (di pee, ee see, L) (again, makes sense to me wkwk)
 	- Discovery - Map internal network, AD enumeration, share discovery  
 	- Privilege Escalation - Exploit kernel bugs, pass-the-hash, token impersonation  
 	- Execution - Run payloads via WMI, PowerShell, scheduled tasks
@@ -29,5 +29,6 @@ DPECL
 	- Impact - Deploy ransomware, wipe data, destroy backups
 	- Objectives: Achieving the final, overarching goal of the attack
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMTU2MTM0NywtOTgwMTM1MzEzXX0=
+eyJoaXN0b3J5IjpbLTkyMDU0MDQ4NywxNDIxNTYxMzQ3LC05OD
+AxMzUzMTNdfQ==
 -->
