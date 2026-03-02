@@ -8,6 +8,7 @@
 		- inet 192.168.10.5/24 brd 192.168.10.255 scope global wlp0s20f3
 	- **see current neighbors**
 		- ip neigh show
+		- shows hosts you've already talked to, not every neighbors
 	-  **MAIN: find a target IP on the LAN**
 		- arp-scan --interface=wlp0s20f3 --localnet
 		- manually sends **ARP Request packets** to every IP in your subnet
@@ -23,8 +24,8 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNTg0NDczOCw3OTM1NDk4MjMsMTcyMj
-cyNTQwMiwtNjAyNzc4Njk2LDExMDI1Njc2ODEsLTg5Mjc4MzU3
-NywtMTY2MDUyNDM1MCwtMTI1NzE5MTA4NCwyMTIyNDcxNDYsMT
-A2OTg2NjA1MCwzODcyMDkzMV19
+eyJoaXN0b3J5IjpbMTc0NTg5NTc2NCwxMzI1ODQ0NzM4LDc5Mz
+U0OTgyMywxNzIyNzI1NDAyLC02MDI3Nzg2OTYsMTEwMjU2NzY4
+MSwtODkyNzgzNTc3LC0xNjYwNTI0MzUwLC0xMjU3MTkxMDg0LD
+IxMjI0NzE0NiwxMDY5ODY2MDUwLDM4NzIwOTMxXX0=
 -->
