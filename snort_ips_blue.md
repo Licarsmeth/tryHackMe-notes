@@ -17,8 +17,15 @@
 		- -n : Specify the number of packets to be processed or read. Snort will stop after reading the specified number of packets.
 
 - **IDS/IPS mode** 
-	- 
+	- -c : Defining the configuration file.
+	- -T : Testing the configuration file.
+	- -N : Disable logging.
+	- -D : Background mode.
+	- -A : Alert modes
+		- **Full:** Full alert mode, providing all possible information about the alert. This mode is also the default; once you use -A and don't specify a mode, Snort defaults to this mode.
+
+*Fast mode displays the alert message, timestamp, source and destination IP addresses*, along with port numbers.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDIzMzczNDMsMTYyNDYzMTQ5NCwtOT
-IyMjM3MDI3XX0=
+eyJoaXN0b3J5IjpbMzM2MDA4ODEzLC0xNTQyMzM3MzQzLDE2Mj
+Q2MzE0OTQsLTkyMjIzNzAyN119
 -->
