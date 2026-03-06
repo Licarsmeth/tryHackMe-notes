@@ -1,5 +1,5 @@
 ## Snort
-- **Basic logging and sniffing**
+- **Basics (testing, logging and sniffing)**
 	- Test the configs
 		- `snort -c path/to/config/file -T` - c gives path to config and T starts the test
 	- Sniffer mode
@@ -26,6 +26,6 @@
 		- **cmg:** CMG style,  basic header details with payload in hex and text format.
 		- **None:** Disabling alerting.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODE3NjA0NTgsLTE1NDIzMzczNDMsMT
-YyNDYzMTQ5NCwtOTIyMjM3MDI3XX0=
+eyJoaXN0b3J5IjpbLTc1MTIxMjg2LC0xODgxNzYwNDU4LC0xNT
+QyMzM3MzQzLDE2MjQ2MzE0OTQsLTkyMjIzNzAyN119
 -->
