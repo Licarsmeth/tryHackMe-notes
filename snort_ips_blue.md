@@ -47,13 +47,13 @@
 		-   `msg:"text"` -> message in alert    
 		-   `sid:1000001` -> Snort rule ID (unique)    
 		-   `rev:1` -> revision number    
-		-   `content:"string"` → payload match    
-		-   `classtype:attempted-admin` → category    
-		-   `priority:1` → priority level
-		- `reference:CVE-xxxx` ->
+		-   `content:"string"` -> payload match    
+		-   `classtype:attempted-admin` -> category    
+		-   `priority:1` -> priority level
+		- `reference:CVE-xxxx` -> reference, duh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNzYxODMzMSwtMjAxMTczNzczNywxND
-A1MDY0NTIsMTc4NDM5MDE5OCw2MzkwMDExMTksOTE2MzMyMDQ5
-LDg2OTczNjUxMSwtNzUxMjEyODYsLTE4ODE3NjA0NTgsLTE1ND
-IzMzczNDMsMTYyNDYzMTQ5NCwtOTIyMjM3MDI3XX0=
+eyJoaXN0b3J5IjpbNjEzNTM1ODUwLC0yMDExNzM3NzM3LDE0MD
+UwNjQ1MiwxNzg0MzkwMTk4LDYzOTAwMTExOSw5MTYzMzIwNDks
+ODY5NzM2NTExLC03NTEyMTI4NiwtMTg4MTc2MDQ1OCwtMTU0Mj
+MzNzM0MywxNjI0NjMxNDk0LC05MjIyMzcwMjddfQ==
 -->
