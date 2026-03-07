@@ -59,18 +59,18 @@
 		-   `priority:1` -> priority level
 		- `reference:CVE-xxxx` -> reference, duh
 	- Special cases: 
-		- `192.168.1.0/24 -> CIDR networks
-		- [192.168.1.10,192.168.1.34] -> IP list
-		- !192.168.1.1 -> Excluding IP
+		- `192.168.1.0/24` -> CIDR networks
+		- `[192.168.1.10,192.168.1.34]` -> IP list
+		- `!192.168.1.1` -> Excluding IP
 		-   Port range:    
 		    -   `1024:65535` (1024 to 65535)      
 		    -   `:1023` (up to 1023)        
 		    -   `1024:` (1024 and above)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzM2ODA5MjMsLTEwODUwMzQ5NDEsMT
-QyNTc5MTY2OCwtMjAxMTczNzczNywxNDA1MDY0NTIsMTc4NDM5
-MDE5OCw2MzkwMDExMTksOTE2MzMyMDQ5LDg2OTczNjUxMSwtNz
-UxMjEyODYsLTE4ODE3NjA0NTgsLTE1NDIzMzczNDMsMTYyNDYz
-MTQ5NCwtOTIyMjM3MDI3XX0=
+eyJoaXN0b3J5IjpbLTE3MjU5MzcyMywtMTA4NTAzNDk0MSwxND
+I1NzkxNjY4LC0yMDExNzM3NzM3LDE0MDUwNjQ1MiwxNzg0Mzkw
+MTk4LDYzOTAwMTExOSw5MTYzMzIwNDksODY5NzM2NTExLC03NT
+EyMTI4NiwtMTg4MTc2MDQ1OCwtMTU0MjMzNzM0MywxNjI0NjMx
+NDk0LC05MjIyMzcwMjddfQ==
 -->
