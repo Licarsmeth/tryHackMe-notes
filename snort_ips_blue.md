@@ -46,10 +46,10 @@
 			- Note that Snort2 supports only these four protocol filters in the rules 
 			- But you can detect the application flows using port numbers and options
 			- Eg: if you want to detect FTP traffic, you cannot use the FTP keyword in the protocol field; instead, you can filter FTP traffic by investigating TCP traffic on port 21.
-		-   `any any` → source IP and port    
-		-   `->` → direction (`->` or `<-` or `<>`)    
-		-   `192.168.1.10 80` → destination IP and port    
-		-   `( ... )` → options in key:value; pairs, separated by `;`
+		-   `any any` -> source IP and port    
+		-   `->` -> direction (`->`  or `<>`, there is no `<-`)    
+		-   `192.168.1.10 80` -> destination IP and port    
+		-   `( ... )` -> options in key:value; pairs, separated by `;`
 	- Common options:
 		-   `msg:"text"` -> message in alert    
 		-   `sid:1000001` -> Snort rule ID (unique)    
@@ -68,9 +68,9 @@
 		    -   `1024:` (1024 and above)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjU5MzcyMywtMTA4NTAzNDk0MSwxND
-I1NzkxNjY4LC0yMDExNzM3NzM3LDE0MDUwNjQ1MiwxNzg0Mzkw
-MTk4LDYzOTAwMTExOSw5MTYzMzIwNDksODY5NzM2NTExLC03NT
-EyMTI4NiwtMTg4MTc2MDQ1OCwtMTU0MjMzNzM0MywxNjI0NjMx
-NDk0LC05MjIyMzcwMjddfQ==
+eyJoaXN0b3J5IjpbNTY5MDczNTYxLC0xMDg1MDM0OTQxLDE0Mj
+U3OTE2NjgsLTIwMTE3Mzc3MzcsMTQwNTA2NDUyLDE3ODQzOTAx
+OTgsNjM5MDAxMTE5LDkxNjMzMjA0OSw4Njk3MzY1MTEsLTc1MT
+IxMjg2LC0xODgxNzYwNDU4LC0xNTQyMzM3MzQzLDE2MjQ2MzE0
+OTQsLTkyMjIzNzAyN119
 -->
