@@ -38,6 +38,10 @@
 	- Example : `alert tcp any any -> 192.168.1.10 80 (msg:"Possible web attack"; content:"/admin"; sid:1000001; rev:1;)`
 	- Parts: 
 		-   `alert` → action (alert, log, pass, drop, reject, sdrop)    
+			-  alert: Generate an alert and log the packet.
+			-   log: Log the packet.
+			-   drop: Block and log the packet.
+			-   reject: Block the packet, log it, and terminate the packet session.
 		-   `tcp` → protocol (tcp, udp, icmp, ip)    
 		-   `any any` → source IP and port    
 		-   `->` → direction (`->` or `<-` or `<>`)    
@@ -52,8 +56,8 @@
 		-   `priority:1` -> priority level
 		- `reference:CVE-xxxx` -> reference, duh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEzNTM1ODUwLC0yMDExNzM3NzM3LDE0MD
-UwNjQ1MiwxNzg0MzkwMTk4LDYzOTAwMTExOSw5MTYzMzIwNDks
-ODY5NzM2NTExLC03NTEyMTI4NiwtMTg4MTc2MDQ1OCwtMTU0Mj
-MzNzM0MywxNjI0NjMxNDk0LC05MjIyMzcwMjddfQ==
+eyJoaXN0b3J5IjpbMTQyNTc5MTY2OCwtMjAxMTczNzczNywxND
+A1MDY0NTIsMTc4NDM5MDE5OCw2MzkwMDExMTksOTE2MzMyMDQ5
+LDg2OTczNjUxMSwtNzUxMjEyODYsLTE4ODE3NjA0NTgsLTE1ND
+IzMzczNDMsMTYyNDYzMTQ5NCwtOTIyMjM3MDI3XX0=
 -->
