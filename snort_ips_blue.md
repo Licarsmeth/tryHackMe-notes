@@ -32,8 +32,11 @@
 			- Snort IPS mode is activated with the `-Q-- daq afpacket` parameters
 			- `snort -c /etc/snort/snort.conf -q -Q --daq afpacket -i eth0:eth1 -A console` 
 			- You can also activate this mode by editing the Snort.conf file. 
+
+- **Rules**
+	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzcxMjAzODQsMTQwNTA2NDUyLDE3OD
+eyJoaXN0b3J5IjpbLTIwMTE3Mzc3MzcsMTQwNTA2NDUyLDE3OD
 QzOTAxOTgsNjM5MDAxMTE5LDkxNjMzMjA0OSw4Njk3MzY1MTEs
 LTc1MTIxMjg2LC0xODgxNzYwNDU4LC0xNTQyMzM3MzQzLDE2Mj
 Q2MzE0OTQsLTkyMjIzNzAyN119
