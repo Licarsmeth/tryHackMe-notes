@@ -87,14 +87,15 @@
 			
 	- DAQ and DAQ modules
 		-   DAQ -> Data Acquisition Library; abstraction layer Snort uses to grab packets.    
-			- Think of it as a **translator or a "bridge" between the Snort engine and your network hardware.Snort itself doesn’t know how to talk to your network card (NIC) directly; it relies on the DAQ to grab packets and hand them over in a format it understands.
+			- Think of it as a translator or a "bridge" between the Snort engine and your network hardware.Snort itself doesn’t know how to talk to your network card (NIC) directly; it relies on the DAQ to grab packets and hand them over in a format it understands.
 		-   Common DAQ modules:    
 			   -   `pcap` -> Standard libpcap capture (sniff only, no inline drop).        
 			   -   `afpacket` -> High‑performance, supports inline IPS on Linux.        
 			   -   `nfq` -> Uses Netfilter Queue (iptables) for inline IPS on Linux.        
 			   -   `dump` -> Writes packets to a file (debug/testing).
+			   - `inline` -> Used for "IPS mode" where packets pass through Snort like a bridge; if a rule triggers, Snort can physically stop the packet from reaching its destination.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNTg5NDYzOSwtMTQzMDgxOTY5MiwtNj
+eyJoaXN0b3J5IjpbMTMxODQxMDg4MiwtMTQzMDgxOTY5MiwtNj
 czNDc3NTUxLDEyMTQ3NDQ4MjUsNTY5MDczNTYxLC0xMDg1MDM0
 OTQxLDE0MjU3OTE2NjgsLTIwMTE3Mzc3MzcsMTQwNTA2NDUyLD
 E3ODQzOTAxOTgsNjM5MDAxMTE5LDkxNjMzMjA0OSw4Njk3MzY1
