@@ -72,24 +72,20 @@
 		    -   `1024:` (1024 and above)
 - **Noteworthy side-chicks**
 	- Snort rule types
-
-		- **Community rules** -> Free, GPLv2, basic/older coverage, no license restrictions for normal use.
-		- **Registered rules** -> Free, but rules are delayed (about 30 days behind subscriber set).
-		- **Subscriber rules** -> Paid, latest rules immediately, best/fastest coverage.
+		- Community rules -> Free, GPLv2, basic/older coverage, no license restrictions for normal use.
+		- Registered rules -> Free, but rules are delayed (about 30 days behind subscriber set).
+		- Subscriber rules -> Paid, latest rules immediately, best/fastest coverage.
 
 	- Rule paths (snort.conf)
-
 		- `rule_path` -> Directory for normal text rules (`*.rules`).
 		- `so_rule_path` -> Directory for shared object rules (`*.so` + stub `.rules`).
 		- `preproc_rule_path` -> Directory for preprocessor rules (e.g., for HTTP, SSH preprocessors).
-
-Example:
-```text
-var RULE_PATH rules
-var SO_RULE_PATH so_rules
-var PREPROC_RULE_PATH preproc_rules
+		- Example:
+			var RULE_PATH rules
+			var SO_RULE_PATH so_rules
+			var PREPROC_RULE_PATH preproc_rules
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MTA3MjM1NiwtMTQzMDgxOTY5MiwtNj
+eyJoaXN0b3J5IjpbMTY3NDMxOTA4OCwtMTQzMDgxOTY5MiwtNj
 czNDc3NTUxLDEyMTQ3NDQ4MjUsNTY5MDczNTYxLC0xMDg1MDM0
 OTQxLDE0MjU3OTE2NjgsLTIwMTE3Mzc3MzcsMTQwNTA2NDUyLD
 E3ODQzOTAxOTgsNjM5MDAxMTE5LDkxNjMzMjA0OSw4Njk3MzY1
