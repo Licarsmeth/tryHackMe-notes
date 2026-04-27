@@ -2,7 +2,7 @@
 
 7 Phases (Lockheed Martin model):
 RWDEICA
-(Ready to Win? Don't Engage In Combat Attack)
+(Ready to Win? Don't Engage In Combat Action)
 
 1.  Reconnaissance - Target research (OSINT, employee names, tech stack)
 	- Type- active recon, passive recon
@@ -27,6 +27,7 @@ Break chain at any phase stops attack
 Recon block = Nmap/IDS signatures  
 C2 kill = network segmentation
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NjIwMDc5NSwtNTk5NzIxMDA2LDE5Mj
-cxMjEzMSwtMTU5NDIwMDkyNiw0NDI4NTE1MjJdfQ==
+eyJoaXN0b3J5IjpbMTE1NzI5MTE1NSwtODQ2MjAwNzk1LC01OT
+k3MjEwMDYsMTkyNzEyMTMxLC0xNTk0MjAwOTI2LDQ0Mjg1MTUy
+Ml19
 -->
